@@ -1,45 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Initial idea
 
-Welcome USER_NAME,
+Elite Football Stadiums then World Stadiums then European Stadium Tours I realized that a solution to the idea is impacted by COVID 19 because of major impact on travel. Therefore the site could be for information purposes for now, but I wanted to use the idea to explore my learning and make the site interactive.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The original idea came from a distant admiration for major architecture in general and exclusively in sport and the history of arenas used across the world since time began.
 
-## Gitpod Reminders
+The first idea was to build the Worlds Elite Football Stadiums app - (WEFS) or Elite League Football Grounds.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The idea was to create a website which lists all of this years Champions League Football Grounds information. Then use the Google's api as a ground locator.
 
-`python3 -m http.server`
+The code would then attempt to split the locations into Northern, Eastern, Southern and Western European regions which would aid in the use of easy travel optimization.
 
-A blue button should appear to click: *Make Public*,
+In graphical terms this would look like a simple circle that splits into four zonal perimeters. This format then allows the user to click on each zonal area to reveal the information about the football ground location and it's amenities, i.e. capacity, parking, access points so on and so forth.
 
-Another blue button should appear to click: *Open Browser*.
+Further development would engage upon using the current statistical trends to predict which teams will make up the new World Elite League that is under current discussion.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+There would then have to be a method of storing the information of all stadiums in Europe and a way to retrieve the data when an upcoming event occurs in the future champions league scenarios.
 
-A blue button should appear to click: *Make Public*,
+Finalizing the idea
 
-Another blue button should appear to click: *Open Browser*.
+Solving a business problem
+I then realized that this concept might not stoke the interests of the public at large. So I thought why not increase the scope and development to all types of sporting arenas across Europe and then make the app a travelling companion called World Stadium Tours - This might solve a business problem geared towards the Hospitality industry.
+I would then go on to build a three page site
+1st page - Landing with optional Register - Sign in and search functionality
+2nd page - Table format of 26 clickable sporting disciplines (has navigation button to go back to previous page)
+3rd page - information which highlights a stadium venue to the left, stats and info to the right and google api features on the bottom. This also has a navigation button to go a=back to the previous page and also a forward button for the next stadium venue. The 2nd and 3rd pages will also have a home button to navigate back to the Landing page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Conclusion
 
-## Updates Since The Instructional Video
+Travel Companion Website/App
+Card style graphics
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Features
+Google Driven API - Marker locators
+Email JS driven Subscription Service
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Future Development - Features
+Tech Stack: C# - ASP.net Core MVC application
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Learn and Implement a C.R.U.D. database - for future proofing.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Dev option that tracks/updates/logs new information and changes to the database
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+A way of tracking incidents/bugs - like an alert system in conjunction with google maps
