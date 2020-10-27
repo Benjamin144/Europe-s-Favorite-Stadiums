@@ -65,12 +65,36 @@ ul {
     background: #fff;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 10vh;
     overflow: hidden;
 }
 
 .nav .nav-menu {
     justify-content: space-between;
+
+}
+
+.nav .toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer; 
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse.toggle-icons i {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.collapse {
+    height: 20rem;
 
 }
 
@@ -106,4 +130,40 @@ ul {
     padding: 1.4rem 0;
 }
 
+.nav .social i {
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover {
+    color: #a1c4cf;
+}
+
+/*----------------- Viewpor t less than or equal to 750px -------------------*/
+
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse{
+        display: initial;
+    }
+}
+
+
+
 /*---------/------- Navbar --------/----------*/
+
+
+/*----------------- Navbar -------------------*/
+
+
+/*---------/------- Navbar --------/----------*/
+
+
+/*----------------- Navbar -------------------*/
+
+
+/*---------/------- Navbar --------/----------*/
+
+/*----------------- Navbar -------------------*/
