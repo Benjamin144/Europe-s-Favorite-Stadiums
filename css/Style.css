@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300,200,300,400,500,600,700|family=Roboto&display=swap:wght@300,200,300,400,500,600,700');
+/*  @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:ital,wght@1,700&family=Livvic&family=Roboto:wght@300&display=swap'); */
+
+@import url('../css/fonts.css');
+
+
 
 html,body{
     margin: 0%;
@@ -6,10 +10,38 @@ html,body{
     overflow-x: hidden;
 }
 
+:root {
+
+    /* Theme Colors */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* gradient color; */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /* theme font-family */
+    --Carter_One:'Carter_One',Cursive;
+    --Josefin_Sans:'Josefin_Sans',Cursive;
+    --Livvic:'Livvic',Cursive;
+    --Roboto:'Roboto',Cursive;
+}
+
+/* gradient color */
+
+
+
+
+
 /*---------------- Global Classes -------------------*/
 
 a {
     text-decoration: none;
+    color: var(--text-gray);
+
+    
 }
 
 .flex-row {
@@ -51,12 +83,23 @@ ul {
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    font-family: var(--Livvic);
+    
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
+    font-family: var(--Josefin_Sans);
+    font-size: 1.6rem;
 }
 
 .nav .social {
