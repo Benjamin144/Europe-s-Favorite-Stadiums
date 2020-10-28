@@ -53,6 +53,28 @@ ul {
     list-style-type: none;
 }
 
+h1{
+    font-family: var(--Livvic);
+    font-size:2.5rem;
+}
+
+h2{
+    font-family: var(--Livvic);
+}
+
+h3{
+    font-family: var(--Roboto);
+    font-size:1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
 /*--------/------- Global Classes --------/----------*/
 
 
@@ -93,10 +115,10 @@ ul {
     color: var(--text-gray);
 }
 
-/*.collapse {
+.collapse {
     height: 30rem;
 
-}*/
+}
 
 .nav .nav-items {
     display: flex;
@@ -139,30 +161,46 @@ ul {
 .nav .social i:hover {
     color: #a1c4cf;
 }
-
+ 
 /*--------\-------- Navbar ---------\---------*/
 
-/*---------------- Landing Page Main Part -------------------*/
+/*---------------- Main Section -------------------*/
 
 /*---------------- Site Title -----------------*/
 
-/*main .site-title {
-    height: 110vh;
+main .site-title {
     background: url('../assets/jesiel-rubio.jpg');
     background-size: cover;
+    height: 110vh;
     display: flex;
     justify-content: center;
 }
 
 main .site-title .site-background{
-    padding-top: 10rem;
-    text-align: center ;
+    padding-top: 15rem;
+    text-align: center;
     color: var(--white);
-};
+}
 
+main .site-title h1,h3{
+    margin:3rem;
+}
+
+main .site-title .btn{
+    margin:1.8rem;
+    background: var(--sky);
+    
+    }
+
+    main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: white;
+    
+    }
 /*---------------- Site Title -----------------*/
 
-/*---------\------- Landing Page Main Part --------\-----------*/
+/*---------\------- Main Section --------\-----------*/
 
 /*----------------- Viewport less than or equal to 750px -------------------*/
 
