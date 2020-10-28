@@ -1,5 +1,3 @@
-/*  @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:ital,wght@1,700&family=Livvic&family=Roboto:wght@300&display=swap'); */
-
 @import url('../css/fonts.css');
 
 
@@ -62,11 +60,12 @@ ul {
 /*---------------- Navbar -------------------*/
 
 .nav {
-    background: #fff;
+    background: #ffffff;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu {
@@ -74,29 +73,29 @@ ul {
 
 }
 
-.nav .toggle-collapse {
+.nav .toggle-collapse{
     position: absolute;
     top: 0%;
     width: 90%;
     cursor: pointer; 
-    display: none;
+    
 }
 
-.nav .toggle-collapse .toggle-icons {
+.nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
 }
 
-.nav .toggle-collapse.toggle-icons i {
+ .nav .toggle-collapse .toggle-icons i{
     font-size: 1.4rem;
     color: var(--text-gray);
 }
 
-.collapse {
-    height: 20rem;
+/*.collapse {
+    height: 30rem;
 
-}
+}*/
 
 .nav .nav-items {
     display: flex;
@@ -108,6 +107,7 @@ ul {
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Livvic);
+
     
 }
 
@@ -120,10 +120,11 @@ ul {
 }
 
 .nav .nav-brand a{
+    font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
     font-family: var(--Josefin_Sans);
-    font-size: 1.6rem;
+    
 }
 
 .nav .social {
@@ -138,32 +139,37 @@ ul {
     color: #a1c4cf;
 }
 
-/*----------------- Viewpor t less than or equal to 750px -------------------*/
+/*--------\-------- Navbar ---------\---------*/
 
-@media only screen and (max-width:750px){
-    .nav .nav-menu, .nav .nav-items{
-        flex-direction: column;
-    }
+/*---------------- Landing Page Main Part -------------------*/
 
-    .nav .toggle-collapse{
-        display: initial;
-    }
+/*---------------- Site Title -----------------*/
+
+/*main .site-title {
+    height: 110vh;
+    background: url('../assets/jesiel-rubio.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center ;
+    color: var(--white);
+};
 
+/*---------------- Site Title -----------------*/
 
-/*---------/------- Navbar --------/----------*/
+/*---------\------- Landing Page Main Part --------\-----------*/
 
+/*----------------- Viewport less than or equal to 750px -------------------*/
 
-/*----------------- Navbar -------------------*/
+@media only screen and (max-width: 750px){
+    .nav .nav-menu, .nav .nav-items{
+         flex-direction: column;
+   
+}
+}
 
-
-/*---------/------- Navbar --------/----------*/
-
-
-/*----------------- Navbar -------------------*/
-
-
-/*---------/------- Navbar --------/----------*/
-
-/*----------------- Navbar -------------------*/
+/*----------/------- Viewport less than or equal to 750px -------/------------*/
