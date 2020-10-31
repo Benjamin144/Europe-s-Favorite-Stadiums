@@ -6,4 +6,8 @@ $toggleCollapse=$('.toggle-collapse');
 $toggleCollapse.click(function(){
     $nav.toggleClass("collapse");
 })
-})
+
+//owl-carousel for review items
+$('.owl-carousel').owlCarousel();
+
+});

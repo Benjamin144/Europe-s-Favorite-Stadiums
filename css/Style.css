@@ -67,6 +67,10 @@ h3{
     font-size:1.3rem;
 }
 
+span{
+    font-family: var(--Livvic)
+}
+
 button.btn{
     border: none;
     border-radius: 2rem;
@@ -171,7 +175,7 @@ button.btn{
 main .site-title {
     background: url('../assets/jesiel-rubio.jpg');
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -190,15 +194,59 @@ main .site-title .btn{
     margin:1.8rem;
     background: var(--sky);
     
-    }
+}
 
-    main .site-title .btn:hover{
-    background: transparent;
-    border: 1px solid var(--white);
-    color: white;
+main .site-title .btn:hover{
+background: transparent;
+border: 1px solid var(--white);
+color: white;
     
-    }
+}
 /*---------------- Site Title -----------------*/
+
+/*---------------- Review Carousel ------------*/
+
+/*main .review {
+    background: url('../assets/night-lights.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+
+}*/
+
+main .review .review-editorial {
+    padding: 6rem;
+}
+
+main .review-editorial .review-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 30rem 2rem;
+    box-shadow: 0 15px 20px rgb(0,0,0,0.2);
+}
+
+main .review-editorial .review-title  {
+    padding: 2rem 0;
+}
+
+main .review-editorial .btn-review {
+    padding: 7rem 2;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .review-editorial span {
+    display: block;
+}
+
+
+
+
+
+/*----------\------ Review Carousel -------\-----*/
 
 /*---------\------- Main Section --------\-----------*/
 
