@@ -263,3 +263,19 @@ main .review-editorial span {
 }
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
+
+/*------------------  Google Maps API --------------------*/
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  /* Optional: Makes the sample page fill the window. */
+  
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------  Google Maps API --------------------*/
+

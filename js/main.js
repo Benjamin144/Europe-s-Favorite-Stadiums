@@ -11,3 +11,4 @@ $toggleCollapse.click(function(){
 $('.owl-carousel').owlCarousel();
 
 });
+

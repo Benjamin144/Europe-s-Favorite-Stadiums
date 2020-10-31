@@ -36,6 +36,8 @@ Email JS driven Subscription Service
 
 Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
 
+The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
+
 Future Development - Features
 Tech Stack: C# - ASP.net Core MVC application
 
