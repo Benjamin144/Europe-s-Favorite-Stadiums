@@ -250,24 +250,23 @@
           </div>
         </div>
       </section>
-      <section>
+    </main>
+<section>
         <!----------- Map DOM Elements ----->
         <div id="map"></div>
       </section>
-    </main>
-
     <!------------/--Start of Footer & links to sign ups and social media -->
     <footer class="container-fluid"></footer>
     <script>function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 8,
+            center: { lat: -34.397, lng: 150.644 },
   });
 }
 </script>
     <!--Maps JavaScript API -->
-    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCg-XIqT9Vl_6Bmfcxrvv1AOwoebU73jI&callback=initMap"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCg-XIqT9Vl_6Bmfcxrvv1AOwoebU73jI&callback=initMap"></script>
 
     <!-------------/--------------- End of footer -----------/-------->
 

@@ -268,14 +268,13 @@ main .review-editorial span {
 
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-#map {
+/*#map {
   /* Optional: Makes the sample page fill the window. */
   
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    /*min-height: 260px
 }
 
 
 /*------------------  Google Maps API --------------------*/
 
+div#map {min-height: 360px;}
