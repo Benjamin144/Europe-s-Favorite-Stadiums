@@ -83,6 +83,12 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
+
+span {
+
+    font-family: var(--Roboto)
+
+}
 /*--------/------- Global Classes --------/----------*/
 
 
