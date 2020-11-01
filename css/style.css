@@ -63,6 +63,7 @@ h1{
 
 h2{
     font-family: var(--Livvic);
+    font-size: 2.5rem;
 }
 
 h3{
@@ -184,7 +185,7 @@ span {
 main .site-title {
     background: url('../assets/surface.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -215,14 +216,16 @@ color: white;
 
 /*---------------- Review Carousel ------------*/
 
-main .review {
-    background: url('../assets/modern-abstract-wavy-background-1.jpg');
+/*main .review {
+    background: url('../assets/abstract-wavy-background.jpg');
     background-repeat: no-repeat;
-    background-position: right;
-    height: 70vh;
+    background-position: left;
+    height: 100vh;
     width: 100%;
+    background-size: 110%;
 
-}
+}*/
+
 
 
 main .review .review-editorial {
