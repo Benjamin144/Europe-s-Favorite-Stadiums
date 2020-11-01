@@ -3,9 +3,11 @@
 
 
 html,body{
-    margin: 0%;
+    margin: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    padding: 0px;
+
 }
 
 :root {
@@ -46,6 +48,8 @@ a {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -214,6 +218,9 @@ color: white;
     width: 100%;
 
 }*/
+main .row {
+    height: 50%;
+}
 
 main .review .review-editorial {
     padding: 6rem;
@@ -263,16 +270,6 @@ main .review-editorial span {
 }
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
-
-/*------------------  Google Maps API --------------------*/
-
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-/*#map {
-  /* Optional: Makes the sample page fill the window. */
-  
-    /*min-height: 260px
-}
 
 
 /*------------------  Google Maps API --------------------*/
