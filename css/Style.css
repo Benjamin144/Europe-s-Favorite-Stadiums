@@ -277,4 +277,8 @@ main .review-editorial span {
 
 /*------------------  Google Maps API --------------------*/
 
-div#map {min-height: 360px;}
+#map {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
