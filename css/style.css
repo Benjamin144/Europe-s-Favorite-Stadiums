@@ -2,11 +2,10 @@
 
 
 
-html,body{
-    margin: 0px;
+html,body {
     box-sizing: border-box;
     overflow-x: hidden;
-    padding: 0px;
+
 
 }
 
@@ -183,7 +182,7 @@ span {
 /*---------------- Site Title -----------------*/
 
 main .site-title {
-    background: url('../assets/jesiel-rubio.jpg');
+    background: url('../assets/surface.jpg');
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -216,20 +215,19 @@ color: white;
 
 /*---------------- Review Carousel ------------*/
 
-/*main .review {
-    background: url('../assets/night-lights.jpg');
+main .review {
+    background: url('../assets/modern-abstract-wavy-background-1.jpg');
     background-repeat: no-repeat;
     background-position: right;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
 
-}*/
-main .row {
-    height: 50%;
 }
 
+
 main .review .review-editorial {
-    padding: 6rem;
+    padding: 0rem;
+    
 }
 
 main .review-editorial .review-content {
@@ -281,7 +279,8 @@ main .review-editorial span {
 /*------------------  Google Maps API --------------------*/
 
 #map {
-    height: 50vh;
-    position: relative;
-    overflow: hidden;
+    height: 260px;
+    
+    
+   
 }
