@@ -2,12 +2,17 @@
 
 
 
+
 html,body {
     box-sizing: border-box;
     overflow-x: hidden;
-
-
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+
+
 
 :root {
 
@@ -94,6 +99,16 @@ span {
 
 }
 /*--------/------- Global Classes --------/----------*/
+
+
+/*------------------  Google Maps API --------------------*/
+
+    #map {
+    
+    height: 100vh; 
+    
+    
+  }
 
 
 
@@ -282,13 +297,6 @@ main .review-editorial span {
 }
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
-
-
-/*------------------  Google Maps API --------------------*/
-
-#map {
-    height: 260px;  
-}
 
 .menu-footer  {
     margin:0;

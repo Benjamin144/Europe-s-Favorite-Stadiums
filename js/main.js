@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
 $nav=$('.nav');
@@ -21,7 +22,8 @@ var stadiums = [
       ['Sportpaleis, Antwerp', 51.2271264, 4.4473945, 1]
     ];
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
       zoom: 3,
       center: new google.maps.LatLng( 52.1675343, -2.3311425),
       mapTypeId: google.maps.MapTypeId.ROADMAP
