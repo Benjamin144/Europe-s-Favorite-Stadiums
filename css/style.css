@@ -12,11 +12,13 @@ html,body {
 :root {
 
     /* Theme Colors */
+    
+    
     --evergreen: #38855d;
-    --text-gray: #3f4954;
+    --text-gray: #112d60;
     --text-light: #686666da;
-    --bg-color: #0f0f0f;
-    --white: #ffffff;
+    --bg-color: #0e3746;
+    --white: #fffaf2;
     --midnight: #104f55;
 
     /* gradient color; */
@@ -58,8 +60,8 @@ ul {
 }
 
 h1{
-    font-family: var(--Livvic);
-    font-size:2.5rem;
+    font-family: var(--Carter_One);
+    font-size:3.5rem;
 }
 
 h2{
@@ -81,6 +83,7 @@ button.btn{
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
+    font-weight: 700;
     font-family: var(--Livvic);
     cursor: pointer;
 }
@@ -131,7 +134,7 @@ span {
 }
 
 .collapse {
-    height: 30rem;
+    height: 20rem;
 
 }
 
@@ -222,10 +225,11 @@ color: white;
     background-repeat: no-repeat;
     background-position: left;
     height: 100vh;
-    width: 100%;
-    background-size: 110%;
+    width: 100%;*/
 
-}*/
+    
+
+}
 
 
 
@@ -304,6 +308,10 @@ main .review-editorial span {
     font-size: 14px;
     font-weight: 300;
     display: block;
-    position: relative
-    var(--evergreen);
+    position: relative  
+}
+
+.footer-location {
+    height: 30px;
+
 }
