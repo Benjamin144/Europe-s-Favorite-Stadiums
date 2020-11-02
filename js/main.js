@@ -23,7 +23,7 @@ var stadiums = [
     ];
 
 
-    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+    var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
       center: new google.maps.LatLng( 52.1675343, -2.3311425),
       mapTypeId: google.maps.MapTypeId.ROADMAP
