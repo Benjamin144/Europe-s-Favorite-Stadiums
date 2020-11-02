@@ -12,6 +12,7 @@ html,body {
 :root {
 
     /* Theme Colors */
+    --evergreen: #38855d;
     --text-gray: #3f4954;
     --text-light: #686666da;
     --bg-color: #0f0f0f;
@@ -28,7 +29,7 @@ html,body {
     --Roboto:'Roboto',Cursive;
 }
 
-/* gradient color */
+
 
 
 
@@ -282,8 +283,27 @@ main .review-editorial span {
 /*------------------  Google Maps API --------------------*/
 
 #map {
-    height: 260px;
-    
-    
-   
+    height: 260px;  
+}
+
+.menu-footer  {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    width: 100%;
+    margin-bottom: 25px;
+    font-weight: bold
+    var(--midnight);
+}
+
+
+.footer-pos-left {
+    font-family: var(--Carter_One);
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    position: relative
+    var(--evergreen);
 }
