@@ -240,11 +240,11 @@ color: white;
     background-repeat: no-repeat;
     background-position: left;
     height: 100vh;
-    width: 100%;*/
+    width: 100%;
 
     
 
-}
+}*/
 
 
 
@@ -267,7 +267,7 @@ main .review-editorial .review-title  {
 }
 
 main .review-editorial .btn-review {
-    padding: 7rem 2;
+    padding: 7rem 2rem;
     background: var(--sky);
     margin: .5rem;
 }
