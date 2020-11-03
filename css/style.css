@@ -47,6 +47,8 @@ html,body {
 a {
     text-decoration: none;
     color: var(--text-gray);
+    font-family: var(--Carter_One);
+
 
     
 }
@@ -121,6 +123,7 @@ span {
     min-height: 10vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
+    position: left;
 }
 
 .nav .nav-menu {
@@ -156,6 +159,7 @@ span {
 .nav .nav-items {
     display: flex;
     margin: 0;
+    position: initial;
 }
 
 .nav .nav-items .nav-link {
@@ -174,6 +178,7 @@ span {
 .nav .nav-items .nav-link:hover a{
     color: var(--white);
 }
+
 
 .nav .nav-brand a{
     font-size: 1.6rem;
@@ -202,10 +207,14 @@ span {
 /*---------------- Site Title -----------------*/
 
 main .site-title {
-    background: url('../assets/surface.jpg');
+    background: url('../assets/surface.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 70vh;
+    height: 95vh;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -217,6 +226,7 @@ main .site-title .site-background{
 
 main .site-title h1,h3{
     margin:3rem;
+    padding-bottom: 4rem;
 }
 
 main .site-title .btn{
@@ -225,7 +235,7 @@ main .site-title .btn{
     
 }
 
-main .site-title .btn:hover{
+main .site-title .btn5:hover{
 background: transparent;
 border: 1px solid var(--white);
 color: white;
@@ -248,7 +258,7 @@ color: white;
 
 
 
-main .review .review-editorial {
+/*main .review .review-editorial {
     padding: 0rem;
     
 }
@@ -274,10 +284,21 @@ main .review-editorial .btn-review {
 
 main .review-editorial span {
     display: block;
+}*/
+
+.owl-carousel img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.tab-content > .tab-pane{
+    display: block;
+    height: 0;
 }
 
-
-
+.tab-content > .active{
+    height: auto;
+}
 
 
 /*----------\------ Review Carousel -------\-----*/
@@ -298,7 +319,7 @@ main .review-editorial span {
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 
-.menu-footer  {
+footer .footer  {
     margin:0;
     padding:0;
     display: flex;
@@ -311,7 +332,7 @@ main .review-editorial span {
 }
 
 
-.footer-pos-left {
+ footer .footer-pos-left {
     font-family: var(--Carter_One);
     font-size: 14px;
     font-weight: 300;
@@ -319,7 +340,8 @@ main .review-editorial span {
     position: relative  
 }
 
-.footer-location {
+footer .footer-location {
     height: 30px;
 
 }
+
