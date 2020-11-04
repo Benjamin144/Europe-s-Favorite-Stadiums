@@ -261,7 +261,7 @@ color: white;
 
 
 
-/*main .review .review-editorial {
+main .review .review-editorial {
     padding: 0rem;
     
 }
@@ -287,21 +287,39 @@ main .review-editorial .btn-review {
 
 main .review-editorial span {
     display: block;
-}*/
+}
 
 .owl-carousel img {
   width: 100%;
   max-width: 300px;
   padding: 5px;
 }
-.tab-content > .tab-pane{
-    display: block;
-    height: 0;
+
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
 }
 
-.tab-content > .active{
-    height: auto;
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: greenyellow !important;
+    background: transparent;
+    font-size: 25rem;
 }
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: greenyellow;
+    size: 10%;
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
 
 
 /*----------\------ Review Carousel -------\-----*/

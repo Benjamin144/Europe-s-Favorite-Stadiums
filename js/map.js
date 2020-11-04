@@ -1,4 +1,4 @@
-
+//*coordinates for highlighted stadiums
 var stadiums = [
       ['Nou Mestalla', 39.474567, -0.3581991, 4],
       ['Le Zenith', 49.3947735, 1.0582603, 5],
@@ -7,7 +7,7 @@ var stadiums = [
       ['Sportpaleis, Antwerp', 51.2271264, 4.4473945, 1]
     ];
 
-
+//* google map API functionality wit info windows
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
       center: new google.maps.LatLng( 52.1675343, -2.3311425),
