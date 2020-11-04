@@ -56,6 +56,13 @@ a {
     
 }
 
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+
 .flex-row {
     display:flex;
     flex-direction: row;
@@ -366,5 +373,11 @@ footer .footer  {
 footer .footer-location {
     height: 30px;
 
+}
+
+ footer .float-right {
+    float: right!important;
+    display: block;
+    position: relative;
 }
 
