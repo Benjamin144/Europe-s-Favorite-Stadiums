@@ -34,6 +34,9 @@ html,body {
     --Josefin_Sans:'Josefin_Sans',Cursive;
     --Livvic:'Livvic',Cursive;
     --Roboto:'Roboto',Cursive;
+    --Lexend:'Lexend_Zetta', Cursive;
+
+    
 }
 
 
@@ -184,7 +187,7 @@ span {
     font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
-    font-family: var(--Josefin_Sans);
+    
     
 }
 
@@ -235,7 +238,7 @@ main .site-title .btn{
     
 }
 
-main .site-title .btn5:hover{
+main .site-title .btn:hover{
 background: transparent;
 border: 1px solid var(--white);
 color: white;
