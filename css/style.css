@@ -31,7 +31,7 @@ html,body {
 
     /* theme font-family */
     --Carter_One:'Carter_One',Cursive;
-    --Josefin_Sans:'Josefin_Sans',Cursive;
+    --Josefin_Sans:'Josefin',Cursive;
     --Livvic:'Livvic',Cursive;
     --Roboto:'Roboto',Cursive;
     --Lexend:'Lexend_Zetta', Cursive;
@@ -248,34 +248,14 @@ color: white;
 
 /*---------------- Review Carousel ------------*/
 
-/*main .review {
-    background: url('../assets/abstract-wavy-background.jpg');
-    background-repeat: no-repeat;
-    background-position: left;
-    height: 100vh;
-    width: 100%;
-
-    
-
-}*/
-
-
-
 main .review .review-editorial {
     padding: 0rem;
     
 }
 
-main .review-editorial .review-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    margin: 30rem 2rem;
-    box-shadow: 0 15px 20px rgb(0,0,0,0.2);
-}
 
-main .review-editorial .review-title  {
+
+main .owl-theme  {
     padding: 2rem 0;
 }
 
@@ -290,9 +270,10 @@ main .review-editorial span {
 }
 
 .owl-carousel img {
-  width: 100%;
-  max-width: 300px;
-  padding: 5px;
+  width: 25%;
+  max-width: 15%;
+  padding: 5%;
+  box-shadow: 0 7px 10px rgb(0,0,0,0.2);
 }
 
 
@@ -305,19 +286,40 @@ section .container .owl-nav{
 
 .owl-nav .owl-prev .owl-nav-prev,
 .owl-nav .owl-next .owl-nav-next{
-    color: greenyellow !important;
+    color: var(--text-gray);
     background: transparent;
     font-size: 25rem;
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover{
     background: transparent;
-    color: greenyellow;
+    color: var(--text-gray);
     size: 10%;
 }
 
 .owl-theme .owl-nav [class*='owl-']{
     outline: none;
+}
+
+.owl-carousel .item {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}
+
+.owl-carousel__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.owl-carousel__nav > div {
+    background: #db2323;
+    color: #fff;
+    padding: 8px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 

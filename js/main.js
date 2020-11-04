@@ -43,7 +43,7 @@ function initialize_owl(el) {
     responsive: {
       0: {
         items: 1,
-        nav: true
+        nav: false
       },
       600: {
         items: 1,
@@ -51,7 +51,7 @@ function initialize_owl(el) {
       },
       1000: {
         items: 1,
-        nav: true,
+        nav: false,
         loop: false
       }
     }
@@ -63,4 +63,20 @@ function initialize_owl(el) {
 function destroy_owl(el) {
   el.data('owlCarousel').destroy();
 }
+$(document).ready(function(){
+  const owl = $('.owl-carousel')
+  owl.owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    items: 1,
+    dots: true
+  });
+  
+  // Custom Nav
+  
+  $('.owl-carousel__next').click(() => owl.trigger('next.owl.carousel'))
+  
+  $('.owl-carousel__prev').click(() => owl.trigger('prev.owl.carousel'))
+})
 
