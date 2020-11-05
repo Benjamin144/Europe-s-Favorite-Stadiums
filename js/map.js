@@ -4,7 +4,7 @@ var locations = [
       ['The o2 Arena', 51.502918, 0.0030256, 13],
       ['Baku Crystal Hall', 40.3664468, 49.8397079, 12],
       ['Cape Town Stadium', -33.9034601, 18.4111458, 11],
-      ['Konya Buyuksehir Stadion', 37.8722034, 32.4581706, 10],
+      ['Konya Buyuksehir Stadion', 37.94619, 32.48683, 10],
       ['Lords Cricket Ground', 51.529831, -0.1743504, 9],
       ['Stade Yves-du-Manoir', 48.9246619, 2.2171973, 8],
       ['Mestella Stadium', 39.47466, -0.3607769, 7],
