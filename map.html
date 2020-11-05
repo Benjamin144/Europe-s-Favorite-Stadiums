@@ -18,7 +18,8 @@
       rel="stylesheet"
     />
     <!-- Google Maps JS script-->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!--<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>-->
+    <script src = "https://maps.googleapis.com/maps/api/js"></script>
     <!-- JQuery Scripts-->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   </head>
@@ -59,13 +60,16 @@
 
     <!-- Navigational Bar -->
 
-    <!-- Map DOM Elements -->
-    <section>
-      <div class="container">
-        <div id="map"></div>
+<!-- Map DOM Elements -->
+<section>
+<div class="container">
+    <body onload = "loadMap()">
+      <div id = "sample" style = "width:580px; height:400px;">
       </div>
-    </section>
+      </body>
+   </div>
 
+   </section>
     <!-- Map DOM Elements -->
 
     <!-- Start of Footer -->
