@@ -4,20 +4,20 @@ var locations = [
       ['The o2 Arena', 51.502918, 0.0030256, 13],
       ['Baku Crystal Hall', 40.3664468, 49.8397079, 12],
       ['Cape Town Stadium', -33.9034601, 18.4111458, 11],
-      ['Konya Buyuksehir Stadion', -33.80010128657071, 151.28747820854187, 10],
-      ['Lords Cricket Ground', -33.950198, 151.259302, 9],
-      ['Stade Yves-du-Manoir', 40.3664468, 49.8397079, 8],
-      ['Mestella Stadium', 40.3664468, 49.8397079, 7],
-      ['PGE Narodowy', -33.9034601, 18.4111458, 6],
-      ['Optus Stadium', -33.80010128657071, 151.28747820854187, 5],
-      ['Antwerps Sportpaleis', -33.950198, 151.259302, 4]
-      ['Bursa Timsah Arena', -33.9034601, 18.4111458, 3],
-      ['Wembley Stadium', -33.80010128657071, 151.28747820854187, 2],
-      ['Zenith Arena Lille', -33.950198, 151.259302, 1]
+      ['Konya Buyuksehir Stadion', 37.8722034, 32.4581706, 10],
+      ['Lords Cricket Ground', 51.529831, -0.1743504, 9],
+      ['Stade Yves-du-Manoir', 48.9246619, 2.2171973, 8],
+      ['Mestella Stadium', 39.47466, -0.3607769, 7],
+      ['PGE Narodowy', 52.2296756, 21.0436022, 6],
+      ['Optus Stadium', -31.9511643, 115.8868572, 5],
+      ['Antwerps Sportpaleis', 51.231122, 4.4388404, 4],
+      ['Bursa Timsah Arena', 40.2110025, 29.0088561, 3],
+      ['Wembley Stadium', 51.5560247, -0.2818064, 2],
+      ['Zenith Arena Lille', 50.6337, 3.0749113, 1],
     ];
 
     var map = new google.maps.Map(document.getElementById('Map'), {
-      zoom: 3,
+      zoom: 1,
       center: new google.maps.LatLng(51.4582235, 7.0158171),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
