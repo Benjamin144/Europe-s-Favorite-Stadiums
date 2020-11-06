@@ -1,12 +1,4 @@
 
-
-<<<<<<< HEAD
-
-
-
-            
-         
-=======
 var locations = [
       ['The o2 Arena', 51.502918, 0.0030256, 13],
       ['Baku Crystal Hall', 40.3664468, 49.8397079, 12],
@@ -46,4 +38,4 @@ var locations = [
         }
       })(marker, i));
     }
->>>>>>> 0be2720f4015f907bd239d568593eb5563f79fe3
+

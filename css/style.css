@@ -1,215 +1,178 @@
-@import url('../css/fonts.css');
+@import url("../css/fonts.css");
 
-
-
-
-html,body {
-    box-sizing: border-box;
-    overflow-x: hidden;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-
-
 
 :root {
+  /* Theme Colors */
 
-    /* Theme Colors */
-    
-    
-    --evergreen: #38855d;
-    --text-gray: #112d60;
-    --text-light: #686666da;
-    --bg-color: #0e3746;
-    --white: #fffaf2;
-    --midnight: #104f55;
+  --evergreen: #38855d;
+  --text-gray: #112d60;
+  --text-light: #686666da;
+  --bg-color: #0e3746;
+  --white: #fffaf2;
+  --midnight: #104f55;
 
-    /* gradient color; */
-    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  /* gradient color; */
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 
-    /* theme font-family */
-    --Carter_One:'Carter_One',Cursive;
-    --Josefin_Sans:'Josefin',Cursive;
-    --Livvic:'Livvic',Cursive;
-    --Roboto:'Roboto',Cursive;
-    --Lexend:'Lexend_Zetta', Cursive;
-
-    
+  /* theme font-family */
+  --Carter_One: "Carter_One", Cursive;
+  --Josefin_Sans: "Josefin", Cursive;
+  --Livvic: "Livvic", Cursive;
+  --Roboto: "Roboto", Cursive;
+  --Lexend: "Lexend_Zetta", Cursive;
 }
-
-
-
-
-
-
 
 /*---------------- Global Classes -------------------*/
 
 a {
-    text-decoration: none;
-    color: var(--text-gray);
-    font-family: var(--Carter_One);
-
-
-    
+  text-decoration: none;
+  color: var(--text-gray);
+  font-family: var(--Carter_One);
 }
 
 a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+  color: #0056b3;
+  text-decoration: underline;
 }
 
-
-
 .flex-row {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0px;
-    margin: 0px;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-h1{
-    font-family: var(--Carter_One);
-    font-size:3.5rem;
+h1 {
+  font-family: var(--Carter_One);
+  font-size: 3.5rem;
 }
 
-h2{
-    font-family: var(--Livvic);
-    font-size: 2.5rem;
+h2 {
+  font-family: var(--Livvic);
+  font-size: 2.5rem;
 }
 
-h3{
-    font-family: var(--Roboto);
-    font-size:1.3rem;
-}
-
-span{
-    font-family: var(--Livvic)
-}
-
-button.btn{
-    border: none;
-    border-radius: 2rem;
-    padding: 1rem 3rem;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: var(--Livvic);
-    cursor: pointer;
+h3 {
+  font-family: var(--Roboto);
+  font-size: 1.3rem;
 }
 
 span {
+  font-family: var(--Livvic);
+}
 
-    font-family: var(--Roboto)
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
 
+span {
+  font-family: var(--Roboto);
 }
 /*--------/------- Global Classes --------/----------*/
 
-
 /*------------------  Google Maps API --------------------*/
 
-    #map {
-    
-    height: 100vh; 
-    
-    
-  }
-
-
+#map {
+  height: 100vh;
+}
 
 /*---------------- Navbar -------------------*/
 
 .nav {
-    background: #ffffff;
-    padding: 0 2rem;
-    height: 0rem;
-    min-height: 10vh;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
-    position: left;
+  background: #ffffff;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+  position: left;
 }
 
 .nav .nav-menu {
-    justify-content: space-between;
-
+  justify-content: space-between;
 }
 
-.nav .toggle-collapse{
-    position: absolute;
-    top: 0%;
-    width: 90%;
-    cursor: pointer; 
-    display: none;
-    
+.nav .toggle-collapse {
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  cursor: pointer;
+  display: none;
 }
 
-.nav .toggle-collapse .toggle-icons{
-    display: flex;
-    justify-content: flex-end;
-    padding: 1.7rem 0;
+.nav .toggle-collapse .toggle-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.7rem 0;
 }
 
- .nav .toggle-collapse .toggle-icons i{
-    font-size: 1.4rem;
-    color: var(--text-gray);
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.4rem;
+  color: var(--text-gray);
 }
 
 .collapse {
-    height: 20rem;
-
+  height: 20rem;
 }
 
 .nav .nav-items {
-    display: flex;
-    margin: 0;
-    position: initial;
+  display: flex;
+  margin: 0;
+  position: initial;
 }
 
 .nav .nav-items .nav-link {
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
-    position: relative;
-    font-family: var(--Livvic);
-
-    
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: var(--Livvic);
 }
 
-.nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+.nav .nav-items .nav-link:hover {
+  background-color: var(--midnight);
 }
 
-.nav .nav-items .nav-link:hover a{
-    color: var(--white);
+.nav .nav-items .nav-link:hover a {
+  color: var(--white);
 }
 
-
-.nav .nav-brand a{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    display: block;
-    
-    
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  display: block;
 }
 
 .nav .social {
-    padding: 1.4rem 0;
+  padding: 1.4rem 0;
 }
 
 .nav .social i {
-    padding: 0 .2rem;
+  padding: 0 0.2rem;
 }
 
 .nav .social i:hover {
-    color: #a1c4cf;
+  color: #a1c4cf;
 }
- 
+
 /*--------\-------- Navbar ---------\---------*/
 
 /*---------------- Main Section -------------------*/
@@ -217,101 +180,96 @@ span {
 /*---------------- Site Title -----------------*/
 
 main .site-title {
-    background: url('../assets/surface.jpg')no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: url("../assets/surface.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-main .site-title .site-background{
-    padding-top: 15rem;
-    text-align: center;
-    color: var(--white);
+main .site-title .site-background {
+  padding-top: 15rem;
+  text-align: center;
+  color: var(--white);
 }
 
-main .site-title h1,h3{
-    margin:3rem;
-    padding-bottom: 4rem;
+main .site-title h1,
+h3 {
+  margin: 3rem;
+  padding-bottom: 4rem;
 }
 
-main .site-title .btn{
-    margin:1.8rem;
-    background: var(--sky);
-    
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
 }
 
-main .site-title .btn:hover{
-background: transparent;
-border: 1px solid var(--white);
-color: white;
-    
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: white;
 }
 /*---------------- Site Title -----------------*/
 
 /*---------------- Review Carousel ------------*/
 
 main .review .review-editorial {
-    padding: 0rem;
-    
+  padding: 0rem;
 }
 
-
-
-main .owl-theme  {
-    padding: 2rem 0;
+main .owl-theme {
+  padding: 2rem 0;
 }
 
 main .review-editorial .btn-review {
-    padding: .7rem 2rem;
-    background: var(--sky);
-    margin: .5rem;
+  padding: 0.7rem 2rem;
+  background: var(--sky);
+  margin: 0.5rem;
 }
 
 main .review-editorial span {
-    display: block;
+  display: block;
 }
 
 .owl-carousel img {
   width: 25%;
   max-width: 15%;
   padding: 5%;
-  box-shadow: 0 7px 10px rgb(0,0,0,0.2);
+  box-shadow: 0 7px 10px rgb(0, 0, 0, 0.2);
 }
 
-
-section .container .owl-nav{
-    position: absolute;
-    top: 0%;
-    margin: 0 auto;
-    width: 100%;
+section .container .owl-nav {
+  position: absolute;
+  top: 0%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
-.owl-nav .owl-next .owl-nav-next{
-    color: var(--text-gray);
-    background: transparent;
-    font-size: 25rem;
+.owl-nav .owl-next .owl-nav-next {
+  color: var(--text-gray);
+  background: transparent;
+  font-size: 25rem;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover{
-    background: transparent;
-    color: var(--text-gray);
-    size: 10%;
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: var(--text-gray);
+  size: 10%;
 }
 
-.owl-theme .owl-nav [class*='owl-']{
-    outline: none;
+.owl-theme .owl-nav [class*="owl-"] {
+  outline: none;
 }
 
 .owl-carousel .item {
-    height: 10rem;
-    background: #4DC7A0;
-    padding: 1rem;
+  height: 10rem;
+  background: #4dc7a0;
+  padding: 1rem;
 }
 
 .owl-carousel__nav {
@@ -321,12 +279,12 @@ section .container .owl-nav{
 }
 
 .owl-carousel__nav > div {
-    background: #db2323;
-    color: #fff;
-    padding: 8px 15px;
-    margin-left: 5px;
-    cursor: pointer;
-    border-radius: 20px;
+  background: #db2323;
+  color: #fff;
+  padding: 8px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 /* The Modal (background) */
@@ -339,7 +297,7 @@ section .container .owl-nav{
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -366,55 +324,86 @@ section .container .owl-nav{
   cursor: pointer;
 }
 
-
-
 /*----------\------ Review Carousel -------\-----*/
 
 /*---------\------- Main Section --------\-----------*/
 
+.form-signin {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--Livvic);
+  cursor: progress;
+}
+
+.btn-block {
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 /*----------------- Viewport less than or equal to 750px -------------------*/
 
-@media only screen and (max-width: 750px){
-    .nav .nav-menu, .nav .nav-items{
-         flex-direction: column;   
-    }
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
 
-.nav .toggle-collapse{
-        display: initial;
-    }
+  .nav .toggle-collapse {
+    display: initial;
+  }
 }
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 
-footer .footer  {
-    margin:0;
-    padding:0;
-    display: flex;
-    flex-wrap: wrap;
-    clear: both;
-    width: 100%;
-    margin-bottom: 25px;
-    font-weight: bold
-    var(--midnight);
+footer .footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  clear: both;
+  width: 100%;
+  margin-bottom: 25px;
+  font-weight: bold var(--midnight);
 }
 
-
- footer .footer-pos-left {
-    font-family: var(--Carter_One);
-    font-size: 14px;
-    font-weight: 300;
-    display: block;
-    position: relative  
+footer .footer-pos-left {
+  font-family: var(--Carter_One);
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+  position: relative;
 }
 
 footer .footer-location {
-    height: 30px;
-
+  height: 30px;
 }
 
- footer .float-right {
-    float: right!important;
-    display: block;
-    position: relative;
+footer .float-right {
+  float: right !important;
+  display: block;
+  position: relative;
 }
-

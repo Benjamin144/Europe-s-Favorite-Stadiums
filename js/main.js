@@ -61,6 +61,15 @@ function initialize_owl(el) {
 //Carousel functions//
 //*self drag away functionality on responsive carousel
 
+
+$(document).ready(function () {
+  initialize_owl($('#owl1'));
+
+  
+  }); 
+
+
+
 function destroy_owl(el) {
   el.data('owlCarousel').destroy();
 }
