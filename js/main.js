@@ -58,8 +58,6 @@ function initialize_owl(el) {
   });
 }
 
-
-
 //Carousel functions//
 //*self drag away functionality on responsive carousel
 
@@ -84,13 +82,6 @@ $(document).ready(function(){
     items: 1,
     dots: true
   });
-
-
-  var h4 = document.querySelector("h4");
-
-h4.addEventListener("input", function() {
-    this.setAttribute("data-heading", this.innerText);
-});
   
   // Custom Nav directional arrows on carousel
   
@@ -98,10 +89,6 @@ h4.addEventListener("input", function() {
   
   $('.owl-carousel__prev').click(() => owl.trigger('prev.owl.carousel'))
 })
-
-
-
-
 
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -128,5 +115,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-

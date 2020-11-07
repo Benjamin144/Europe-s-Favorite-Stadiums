@@ -269,6 +269,7 @@ main .review-editorial .btn-review {
   margin: 0.5rem;
 }
 
+
 main .review-editorial span {
   display: block;
 }
@@ -356,18 +357,43 @@ section .container .owl-nav {
 }
 
 .owl-carousel__nav > div {
-  background: #db2323;
+  border: none;
+  border-radius: 2rem;
   color: #fff;
   padding: 8px 15px;
   margin-left: 5px;
-  cursor: pointer;
-  border-radius: 20px;
+margin: 0.5rem;
+  cursor: progress;
+  background: var(--sky);
+  font-family: var(--Livvic);
+  font-weight: 600; 
+  font-size: 1rem;  
 }
+
+.owl-carousel__nav > div:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: sticky; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
@@ -425,9 +451,6 @@ section .container .owl-nav {
   font-weight: 700;
   font-family: var(--Livvic);
   cursor: progress;
-}
-
-.btn-block {
 }
 
 .bd-placeholder-img {
