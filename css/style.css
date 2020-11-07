@@ -1,12 +1,50 @@
 @import url("../css/fonts.css");
 
+* {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 html,
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  height: 100%;
-  margin: 0;
   padding: 0;
+  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: #f8f9fa;
+  /*background-color:  #6e6e6e;*/
+  background:linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote,
+form,
+ul,
+ol,
+dl {
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.header {
+  margin: 0;
 }
 
 :root {
@@ -98,7 +136,7 @@ span {
 /*---------------- Navbar -------------------*/
 
 .nav {
-  background: #ffffff;
+  background: #f1f1f1;
   padding: 0 2rem;
   height: 0rem;
   min-height: 10vh;
@@ -235,6 +273,33 @@ main .review-editorial span {
   display: block;
 }
 
+.col{
+    flex-basis: 0;
+    flex-grow: 1;  
+}
+
+.col-md-6 h1 {
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
+.col-md-4 {	
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
+.col-sm-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
 .owl-carousel img {
   width: 25%;
   max-width: 15%;
@@ -247,6 +312,18 @@ section .container .owl-nav {
   top: 0%;
   margin: 0 auto;
   width: 100%;
+}
+
+.h4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  font-size: 5vw;
+  margin: 50;
+  font-family: var(--Josefin_Sans);
+  font-weight: 700;
+  margin-top: 60%;
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
@@ -302,7 +379,7 @@ section .container .owl-nav {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #f8f9fa;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -327,6 +404,10 @@ section .container .owl-nav {
 /*----------\------ Review Carousel -------\-----*/
 
 /*---------\------- Main Section --------\-----------*/
+
+.container {
+  background-color: #e7feff;
+}
 
 .form-signin {
   position: absolute;
@@ -372,22 +453,55 @@ section .container .owl-nav {
     flex-direction: column;
   }
 
+
   .nav .toggle-collapse {
     display: initial;
   }
 }
 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+
+@media (max-width: 575.98px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+
+
+#your-custom-id p { margin: 0!important; line-height: 40px; }
+@media only screen and (min-width: 767px) {
+#your-unique-id .av_one_half:nth-child(1) {
+    margin-left: 0!important;
+}    
+
+}
+
+#your-unique-id .av_one_half {
+    margin-left: 1%!important;
+    width: 49%!important;
+    }
+}
+
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 
-footer .footer {
+
+
+ #site-footer  {
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   clear: both;
   width: 100%;
+    height: 50px;
   margin-bottom: 25px;
   font-weight: bold var(--midnight);
+  background:linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
 }
 
 footer .footer-pos-left {
