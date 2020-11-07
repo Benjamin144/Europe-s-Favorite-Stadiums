@@ -20,7 +20,7 @@ body {
   height: 100vh;
   /*background-color: #f8f9fa;
   /*background-color:  #6e6e6e;*/
-  background:linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background:linear-gradient(to right, #BFFFC7, #4BC0C8, #23494A);
 }
 
 h1,
@@ -77,8 +77,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: var(--midnight);
+  text-decoration: none;
 }
 
 .flex-row {
@@ -376,20 +376,6 @@ margin: 0.5rem;
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -462,59 +448,18 @@ margin: 0.5rem;
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
-
-/*----------------- Viewport less than or equal to 750px -------------------*/
-
-@media only screen and (max-width: 750px) {
-  .nav .nav-menu,
-  .nav .nav-items {
-    flex-direction: column;
-  }
-
-
-  .nav .toggle-collapse {
-    display: initial;
-  }
-}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-
-
-@media (max-width: 575.98px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
+.footer {
+  background: #f1f1f1;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+  position: left;
 }
 
 
-
-#your-custom-id p { margin: 0!important; line-height: 40px; }
-@media only screen and (min-width: 767px) {
-#your-unique-id .av_one_half:nth-child(1) {
-    margin-left: 0!important;
-}    
-
-}
-
-#your-unique-id .av_one_half {
-    margin-left: 1%!important;
-    width: 49%!important;
-    }
-}
-
-/*----------/------- Viewport less than or equal to 750px -------/------------*/
-
-
-
- #site-footer  {
+ /*#site-footer  {
   margin: 0;
   padding: 0;
   display: flex;
@@ -544,3 +489,55 @@ footer .float-right {
   display: block;
   position: relative;
 }
+/*----------------- Viewport less than or equal to 750px -------------------*/
+
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
+
+
+  .nav .toggle-collapse {
+    display: initial;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+
+@media (max-width: 575.98px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+#your-custom-id p { 
+    margin: 0!important; 
+    line-height: 40px; 
+    }
+    
+@media only screen and (min-width: 767px) {
+#your-unique-id .av_one_half:nth-child(1) {
+    margin-left: 0!important;
+}    
+
+}
+
+#your-unique-id .av_one_half {
+    margin-left: 1%!important;
+    width: 49%!important;
+    }
+
+
+/*----------/------- Viewport less than or equal to 750px -------/------------*/
