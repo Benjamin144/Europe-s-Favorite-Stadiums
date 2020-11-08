@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-html,
+/*html,
 body {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ body {
   height: 100vh;
   /*background-color: #f8f9fa;
   /*background-color:  #6e6e6e;*/
-  background:linear-gradient(to right, #BFFFC7, #4BC0C8, #23494A);
+  /*background:linear-gradient(to right, #BFFFC7, #4BC0C8, #23494A);
 }
 
 h1,
@@ -45,7 +45,7 @@ dl {
 
 .header {
   margin: 0;
-}
+}*/
 
 :root {
   /* Theme Colors */
@@ -130,7 +130,7 @@ span {
 .nav {
   background: #f1f1f1;
   padding: 0 2rem;
-  height: 0rem;
+  height: 6rem;
   min-height: 10vh;
   overflow: hidden;
   transition: height 1s ease-in-out;
@@ -278,7 +278,7 @@ main .review-editorial .btn-review {
 
 #myBtn {
   border: none;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem 3rem;
   font-size: 1rem;
   font-weight: 700;
