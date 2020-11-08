@@ -255,33 +255,68 @@ main .site-title .btn:hover {
 
 /*---------------- Review Carousel ------------*/
 
-main .review .review-editorial {
-  padding: 0rem;
+
+
+.box{
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
-main .owl-theme {
+.swipe-right {
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    
+}
+.fas {
+    display: table-cell;
+}
+
+.fas .fa-angle-double-left {
+    float: left;
+}
+
+
+
+
+
+.owl-theme {
   padding: 2rem 0;
 }
 
-main .review-editorial .btn-review {
-  padding: 0.7rem 2rem;
-  background: var(--sky);
-  margin: 0.5rem;
+
+.owl-carousel span {
+  display: block;
 }
+
 
 .owl-carousel__nav > div {
     border: none;
-    border-radius: 25rem;
+    border-radius: 55%;
+    display: inline-block;
+    text-align: center;
     color: #fff;
     padding: 8px 15px;
     margin-left: 5px;
-    margin: 0.5rem;
+    margin: 4px 2;
     cursor: progress;
     background: var(--sky);
     font-family: var(--Livvic);
     font-weight: 600;
     font-size: 1rem;
 }
+
+.owl-carousel-text {
+  color:#ffffff;
+  font-size:24px;
+  margin-left:10%;
+  margin-right:10%;
+  font-weight:500;
+  margin-bottom:50px;
+}
+
+
 
 
 #myBtn {
@@ -309,10 +344,6 @@ color: whitesmoke;
 
 
 
-
-main .review-editorial span {
-  display: block;
-}
 
 .col{
     flex-basis: 0;
