@@ -112,15 +112,7 @@ span {
   font-family: var(--Livvic);
 }
 
-button.btn {
-  border: none;
-  border-radius: 2rem;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 700;
-  font-family: var(--Livvic);
-  cursor: pointer;
-}
+
 
 span {
   font-family: var(--Roboto);
@@ -268,6 +260,35 @@ main .review-editorial .btn-review {
   background: var(--sky);
   margin: 0.5rem;
 }
+
+.owl-carousel__nav > div {
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 8px 15px;
+    margin-left: 5px;
+    margin: 0.5rem;
+    cursor: progress;
+    background: var(--sky);
+    font-family: var(--Livvic);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+#myBtn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--Livvic);
+  cursor: progress;
+  margin-bottom: 5px;
+}
+
+
+
 
 
 main .review-editorial span {
@@ -429,15 +450,7 @@ margin: 0.5rem;
   font-size: 18px;
 }
 
-.btn-primary {
-  border: none;
-  border-radius: 2rem;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 700;
-  font-family: var(--Livvic);
-  cursor: progress;
-}
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;
