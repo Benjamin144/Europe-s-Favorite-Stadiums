@@ -5,7 +5,6 @@
   font-family: inherit;
   font-style: inherit;
   font-size: 100%;
-  border: none;
   padding: 0;
   margin: 0;
 }
@@ -116,6 +115,15 @@ span {
 
 span {
   font-family: var(--Roboto);
+}
+
+.mt-5{
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    font-size: 10px;
+    padding-top: 10px;
 }
 /*--------/------- Global Classes --------/----------*/
 
@@ -287,6 +295,17 @@ main .review-editorial .btn-review {
   margin-bottom: 5px;
 }
 
+.btn-success {
+font-weight: bold;
+border-radius: 23px;
+width: 160px;
+background-color: #1d266a;
+border-color: #1d266a;
+box-shadow: 0 0 0 0.2rem rgb(29, 38, 106,0.5);
+border-style: none;
+color: whitesmoke;
+}
+
 
 
 
@@ -447,7 +466,9 @@ margin: 0.5rem;
   top: 50%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: var(--Carter_One)
+  
 }
 
 
@@ -461,14 +482,31 @@ margin: 0.5rem;
   user-select: none;
 }
 
-.footer {
-  background: #f1f1f1;
+.background {
+    width:100%;
+    height: 200px;
+    background: green;
+    position: relative;
+
+}
+
+#site-footer {
+    position:absolute;
+    bottom: 0px;
+    height: 130px;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+
+
+  /*width: 100%;
+  background: greenyellow;
   padding: 0 2rem;
-  height: 0rem;
+  height: 200px;
   min-height: 10vh;
-  overflow: hidden;
+  /*overflow: hidden;
   transition: height 1s ease-in-out;
-  position: left;
+  position: left;*/
 }
 
 
