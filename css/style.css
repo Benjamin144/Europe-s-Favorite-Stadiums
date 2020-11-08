@@ -230,7 +230,7 @@ main .site-title {
 }
 
 main .site-title .site-background {
-  padding-top: 15rem;
+  padding-top: 10rem;
   text-align: center;
   color: var(--white);
 }
@@ -375,8 +375,9 @@ color: whitesmoke;
 }
 
 .owl-carousel img {
-  height: 40% !important;
-  width:  80% !important;
+  height: auto;
+  width:  auto;
+  max-width: 45%; 
   
 
 
