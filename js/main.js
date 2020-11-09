@@ -68,8 +68,6 @@ $(document).ready(function () {
   
   }); 
 
-
-
 function destroy_owl(el) {
   el.data('owlCarousel').destroy();
 }
@@ -115,3 +113,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+

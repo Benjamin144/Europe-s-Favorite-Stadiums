@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visit The Worlds Finest Sporting Venues</title>
 
-    
-
     <!-- Font Awesome Scripts & Icons (used my credentials from FA website-->
     <link rel="stylesheet" href="./css/all.css" />
 
@@ -49,8 +47,8 @@
           </div>
           <div>
             <ul class="nav-items">
-            <li class="nav-link">
-                <a href="subscribe.html">About</a>
+              <li class="nav-link">
+                <a href="#modals">About</a>
               </li>
               <li class="nav-link">
                 <a href="#nearly_last_paragraph">Explore</a>
@@ -88,7 +86,7 @@
           </div>
         </div>
       </nav>
-      
+
       <!-- Navigation -->
 
       <!-- Main Section -->
@@ -96,7 +94,7 @@
         <!-- Site Title  -->
         <section class="site-title">
           <div class="site-background">
-            <h1>Live for the moment..</h1>
+            <h2>Tour Sports Venues Across The Globe</h2>
             <p id="nearly_last_paragraph"></p>
           </div>
         </section>
@@ -105,132 +103,139 @@
       <!-- End of Main Section -->
     </section>
 
-
-
-
-
     <!-- Carousel -->
     <section>
-        <div class="owl-carousel owl-theme social text-gray" id="owl1">
+      <div class="owl-carousel owl-theme social text-gray" id="owl1">
+        <a href="./map.html"
+          ><p>The O2 Arena, England</p>
+          <img src="./assets/review/arena-o2.png" alt="England"
+        /></a>
 
-     <!-- Wrapper for slides -->
+        <a href="./map.html"
+          ><p>Baku Crystal Hall, Azerbaijan</p>
+          <img src="./assets/review/baku.png" alt="Azerbaijan"
+        /></a>
+        <a href="./map.html"
+          ><p>Cape Town Stadium, South Africa</p>
+          <img src="./assets/review/cape.png" alt="South Africa"
+        /></a>
+        <a href="./map.html"
+          ><p>Konya Buyuksehir Stadion, Turkey</p>
+          <img src="./assets/review/konya.png" alt="Turkey"
+        /></a>
+        <a href="./map.html"
+          ><p>Lords Cricket Ground, England</p>
+          <img src="./assets/review/lords.png" alt="England"
+        /></a>
+        <a href="./map.html"
+          ><p>Stade Yves-du-Manoir, France</p>
+          <img src="./assets/review/manoir.png" alt="France"
+        /></a>
+        <a href="./map.html"
+          ><strong>The Mestella Stadium, Spain</strong
+          ><img src="./assets/review/mestalla.png" alt="Spain"
+        /></a>
+        <a href="./map.html"
+          ><strong>PGE Narodowy, Poland</strong
+          ><img src="./assets/review/national.png" alt="Poland"
+        /></a>
+        <a href="./map.html"
+          ><p>Optus Stadium, Australia</p>
+          <img src="./assets/review/optus.png" alt="Australia"
+        /></a>
+        <a href="./map.html"
+          ><p>Antwerps Sportpaleis, Belgium</p>
+          <img src="./assets/review/sportpaleis.png" alt="Belgium"
+        /></a>
+        <a href="./map.html"
+          ><p>Bursa Timsah Arena, Turkey</p>
+          <img src="./assets/review/timsah.png" alt="Turkey"
+        /></a>
+        <a href="./map.html"
+          ><p>Wembley Stadium, London</p>
+          <img src="./assets/review/wembley.png" alt="England"
+        /></a>
+        <a href="./map.html"
+          ><p>Zenith Arena Lille, France</p>
+          <img src="./assets/review/zenith.png" alt="France"
+        /></a>
+      </div>
 
-      <!--<div class="carousel-inner" role="slider">-->
-          <a href="./map.html"
-            ><strong>The O2 Arena, England</strong><img src="./assets/review/arena-o2.png" alt="England"
-          /></a>
-          <a href="./map.html"
-            ><strong>Baku Crystal Hall, Azerbaijan</strong><img src="./assets/review/baku.png" alt="Azerbaijan"
-          /></a>
-          <a href="./map.html"
-            ><strong>Cape Town Stadium, South Africa</strong><img src="./assets/review/cape.png" alt="South Africa"
-          /></a>
-          <a href="./map.html"
-            ><strong>Konya Buyuksehir Stadion, Turkey</strong><img src="./assets/review/konya.png" alt="Turkey"
-          /></a>
-          <a href="./map.html"
-            ><strong>Lords Cricket Ground, England</strong><img src="./assets/review/lords.png" alt="England"
-          /></a>
-          <a href="./map.html"
-            ><strong>Stade Yves-du-Manoir, France</strong><img src="./assets/review/manoir.png" alt="France"
-          /></a>
-          <a href="./map.html"
-            ><strong>The Mestella Stadium, Spain</strong><img src="./assets/review/mestalla.png" alt="Spain"
-          /></a>
-          <a href="./map.html"
-            ><strong>PGE Narodowy, Poland</strong><img src="./assets/review/national.png" alt="Poland"
-          /></a>
-          <a href="./map.html"
-            ><strong>Optus Stadium, Australia</strong><img src="./assets/review/optus.png" alt="Australia"
-          /></a>
-          <a href="./map.html"
-            ><strong>Antwerps Sportpaleis, Belgium</strong><img src="./assets/review/sportpaleis.png" alt="Belgium"
-          /></a>
-          <a href="./map.html"
-            ><strong>Bursa Timsah Arena, Turkey</strong><img src="./assets/review/timsah.png" alt="Turkey"
-          /></a>
-          <a href="./map.html"
-            ><strong>Wembley Stadium, London</strong><img src="./assets/review/wembley.png" alt="England"
-          /></a>
-          <a href="./map.html"
-            ><strong>Zenith Arena Lille, France</strong><img src="./assets/review/zenith.png" alt="France"
-          /></a>
-        </div>
-<!--</div>-->
+      <!-- JS controlled-->
+      <div class="owl-carousel__nav">
+        <div class="owl-carousel__prev">prev</div>
+        <div class="owl-carousel__next">next</div>
 
+        <button id="myBtn">
+          <a href="#nearly_last_paragraph_2">Find out More</a>
+        </button>
+      </div>
 
-		<!-- JS controlled-->
-		<div class="owl-carousel__nav">
-          <div class="owl-carousel__prev">prev</div>
-          <div class="owl-carousel__next">next</div>
-    
-<button id="myBtn"><a href="#nearly_last_paragraph_2">Find out More</a></button>
+      <!-- Trigger/Open The Modal -->
 
-						</div>
-
-	<!-- Trigger/Open The Modal --> 
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <ul class="nav-items">
-              <li class="nav-link">
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <ul class="nav-items">
+            <li class="nav-link">
               <p id="nearly_last_paragraph_2"></p>
-                <a href="subscribe.html">Super Arenas represents support for all sports at grassroots level.
-                Here's your chance to join us on a whirlwind trip around some of the most amazing stadiums, arenas and other sporting venues across the world.
-             'Swipe left or use the buttons to showcase a sample thumbnail of the stadiums, once your done click on the thumbnail for a chance to win a trip to one of them '
-             Don't forget to subscribe to claim your win!
-                </a>
-              </li>
-            </ul>
-          </div>
+              <a href="subscribe.html"
+                >Super Arenas is a fund raising charity that aims to support
+                sports organizations at grassroots level. Our businesse readily
+                makes donations to community organisations for lots of different
+                reasons, our business interest reach out to start ups within
+                sport. We like seeing our partners making a contribution to a
+                worthy cause and as partners in the local community we are
+                likely to follow suit......Or consider other ways to work
+                alongside you. Now.....here's your chance to join us on a
+                whirlwind adventure to see some of the most amazing stadiums,
+                arenas and other sporting venues across the world. Select any
+                image and zoom into the location, to get more detail. Please
+                subscribe for a chance to win! and get more information from our
+                regular bulletins. 'Swipe left or use the buttons to showcase a
+                sample this months favorite venues, once your done click on the
+                image to learn more.
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
-   
     <div>
-   
       <!-- Start of Footer -->
       <section>
-      <div class="background">
-      <div id="site-footer">
-      <nav class="nav">
-        <div class="nav-menu flex-row">
-          <div class="nav-brand">
-
-
-  <div class="social text-gray">
-          
-            <a
-              class="text"
-              href="https://benjamin144.github.io/My-Resume/"
-              title="Powered by MVN"
-              target="blank"
-              >Powered by MVN.</a
-            >
-          
-          
-        </div>
-        </div>
-
-
-
-            
-          <div class="social  text-gray">
-            <!--<a class="float-right">-->
-            <a href="index.html" referrerpolicy="origin"><i>Back to top</i></a>
-          <!--</a>-->
+        <div class="background">
+          <div id="site-footer">
+            <nav class="nav">
+              <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                  <div class="social text-gray">
+                    <a
+                      class="text"
+                      href="https://benjamin144.github.io/My-Resume/"
+                      title="Powered by MVN"
+                      target="blank"
+                      >Powered by MVN.</a
+                    >
+                  </div>
+                </div>
+                <div class="social text-gray">
+                  <!--<a class="float-right">-->
+                  <a href="index.html" referrerpolicy="origin"
+                    ><i>Back to top</i></a
+                  >
+                  <!--</a>-->
+                </div>
+              </div>
+            </nav>
           </div>
         </div>
-      </nav>
-      </div>
-      </div>
       </section>
-      </div>
+    </div>
 
     <!-- End of footer-->
-    
 
     <!-- Owl Carousel js -->
     <script src="./js/owl.carousel.min.js"></script>
@@ -240,7 +245,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
