@@ -173,10 +173,7 @@ span {
   color: var(--text-gray);
 }
 
-  .nav .toggle-collapse {
-    display: initial;
-  }
-
+ 
 .collapse {
   height: 20rem;
 }
@@ -448,7 +445,7 @@ section .container .owl-nav {
   color: #fff;
   padding: 8px 15px;
   margin-left: 5px;
-margin: 0.5rem;
+  margin: 0.5rem;
   cursor: progress;
   background: var(--sky);
   font-family: var(--Livvic);
@@ -551,6 +548,11 @@ margin: 0.5rem;
   .nav .nav-items {
     flex-direction: column;
   }
+
+   .nav .toggle-collapse {
+    display: initial;
+  }
+}
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 
@@ -724,4 +726,3 @@ iPad 3
 /* Styles */
 
 }
-   
