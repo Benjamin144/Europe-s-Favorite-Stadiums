@@ -13,3 +13,12 @@ function sendMail(contactForm) {
         })
 };
 
+ 
+        (function() {
+            emailjs.init("user_vanqZMkpPOADQP2iEpqKS");
+            emailjs.send("gmail", "rosie", {
+                name: "Aaron",
+                notes: "The project that I want is..."
+            })
+        })();
+    </script>
