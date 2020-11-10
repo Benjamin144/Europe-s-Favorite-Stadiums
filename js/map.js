@@ -6,7 +6,7 @@ var locations = [
       ['Konya Buyuksehir Stadion', 37.94619, 32.48683, 10],
       ['Lords Cricket Ground', 51.529831, -0.1743504, 9],
       ['Stade Yves-du-Manoir', 48.9246619, 2.2171973, 8],
-      ['Mestella Stadium', 39.47466, -0.3607769, 7],
+      ['Mestella Stadium', 39.474487, -0.359292, 7],
       ['PGE Narodowy', 52.2296756, 21.0436022, 6],
       ['Optus Stadium', -31.9511643, 115.8868572, 5],
       ['Antwerps Sportpaleis', 51.231122, 4.4388404, 4],
@@ -16,7 +16,7 @@ var locations = [
     ];
 
     var map = new google.maps.Map(document.getElementById('Map'), {
-      zoom: 1,
+      zoom: 4,
       center: new google.maps.LatLng(51.4582235, 7.0158171),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
