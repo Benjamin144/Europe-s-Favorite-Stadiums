@@ -427,11 +427,7 @@ section .container .owl-nav {
   outline: none;
 }
 
-.owl-carousel .item {
-  height: 10rem;
-  background: #4dc7a0;
-  padding: 1rem;
-}
+
 
 .owl-carousel__nav {
   display: flex;

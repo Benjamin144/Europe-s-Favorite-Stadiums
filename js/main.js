@@ -29,6 +29,7 @@ $(document).ready(function () {
     })
 })
 
+
 //* customised self manual scrolling carousel
 
 
@@ -91,6 +92,10 @@ $(document).ready(function(){
     dots: true
   });
   
+  
+
+
+  
   // Custom Nav directional arrows on carousel
   
   $('.owl-carousel__next').click(() => owl.trigger('next.owl.carousel'))
@@ -98,14 +103,21 @@ $(document).ready(function(){
   $('.owl-carousel__prev').click(() => owl.trigger('prev.owl.carousel'))
 })
 
+
+
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
+
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -123,4 +135,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
 
