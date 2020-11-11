@@ -63,7 +63,7 @@ Make the site secure - by using Log in - Admin/User (security|), I.e. (Later usi
 
 #Current Issues
 
-Is it bad or good practice to include JavaScript in an HTML ...
+####Is it bad or good practice to include JavaScript in an HTML ...
 A way of tracking incidents/bugs - like an alert system in conjunction with google maps
 could not justify not using js in map.html was unable to resolve a loading issue with the google map - read this article concerning an outstanding question, I have
 
@@ -71,6 +71,8 @@ could not justify not using js in map.html was unable to resolve a loading issue
 Dev option that tracks/updates/logs new information and changes to the database
 It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
 JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
+
+####Reduce file sizes - Previously changed from jpeg to png.. but may have to compress ping further if possible and replace all image file batches
 
 ################################################################################################################################################################################
 
