@@ -517,7 +517,8 @@ section .container .owl-nav {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  /*background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  background:linear-gradient(to right, #BFFFC7, #4BC0C8, #23494A);
 }
 
 /* Modal Content/Box */
