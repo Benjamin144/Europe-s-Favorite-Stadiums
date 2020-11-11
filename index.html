@@ -102,6 +102,8 @@
     <!-- Carousel -->
 
  <section>
+
+ 
       <div class="owl-carousel owl-theme social text-gray" id="el">
         <a href="./map.html"
           ><p>The O2 Arena, England</p>
@@ -157,6 +159,17 @@
           <img src="./assets/review/zenith.png" alt="France"
         /></a>
       </div>
+      <div class="popup" onclick="myFunction()">Info
+  <span class="popuptext" id="myPopup">Swipe left to view or click to enter </span>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 
       <!-- JS controlled-->
       <div class="owl-carousel__nav">

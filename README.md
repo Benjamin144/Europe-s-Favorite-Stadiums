@@ -45,6 +45,83 @@ Learn and Implement a C.R.U.D. database - for future proofing.
 
 Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
 
-Dev option that tracks/updates/logs new information and changes to the database
-
+Is it bad or good practice to include JavaScript in an HTML ...
 A way of tracking incidents/bugs - like an alert system in conjunction with google maps
+could not justify not using js in map.html was unable to resolve a loading issue with the google map - read this article concerning an outstanding question, I have
+
+
+Dev option that tracks/updates/logs new information and changes to the database
+It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
+JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
+
+
+Testing Errors - Struggling to get past these
+jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:38)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+initialize_owl @ main.js:50
+(anonymous) @ main.js:38
+e @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+S.readyException @ jquery-3.5.1.min.js:2
+(anonymous) @ jquery-3.5.1.min.js:2
+e @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+(anonymous) @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+fire @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+(anonymous) @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+fire @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+ready @ jquery-3.5.1.min.js:2
+B @ jquery-3.5.1.min.js:2
+jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:77)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+initialize_owl @ main.js:50
+(anonymous) @ main.js:77
+e @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+S.readyException @ jquery-3.5.1.min.js:2
+(anonymous) @ jquery-3.5.1.min.js:2
+e @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+(anonymous) @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+fire @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+t @ jquery-3.5.1.min.js:2
+setTimeout (async)
+(anonymous) @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+fire @ jquery-3.5.1.min.js:2
+c @ jquery-3.5.1.min.js:2
+fireWith @ jquery-3.5.1.min.js:2
+ready @ jquery-3.5.1.min.js:2
+B @ jquery-3.5.1.min.js:2
+jquery-3.5.1.min.js:2 Uncaught TypeError: owl.owlCarousel is not a function
+    at HTMLDocument.<anonymous> (main.js:87)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+
+Able to reference markers by index.html "country" & mapdata.js "latling" "venue name"
+

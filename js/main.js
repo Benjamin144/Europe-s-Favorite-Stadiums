@@ -40,12 +40,6 @@ $(document).ready(function () {
 });
 
 
-function showMessage() {
-  alert( 'Hello everyone!' );
-}
-
-
-
 function initialize_owl(el) {
   el.owlCarousel({
     loop: true,
@@ -103,10 +97,6 @@ $(document).ready(function(){
   $('.owl-carousel__prev').click(() => owl.trigger('prev.owl.carousel'))
 })
 
-
-
-
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -135,6 +125,18 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$(function() {
+
+   $("body").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 30);
+    
+      event.preventDefault();
+
+   });
+
+});
 
 
 
