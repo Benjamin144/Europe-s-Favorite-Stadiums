@@ -159,17 +159,10 @@
           <img src="./assets/review/zenith.png" alt="France"
         /></a>
       </div>
-      <div class="popup" onclick="myFunction()">Info
-  <span class="popuptext" id="myPopup">Swipe left to view or click to enter </span>
+      
 </div>
 
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-</script>
+
 
       <!-- JS controlled-->
       <div class="owl-carousel__nav">
@@ -177,8 +170,17 @@ function myFunction() {
         <div class="owl-carousel__next">next</div>
 
         <button id="myBtn">
-          <a href="#nearly_last_paragraph_2">Find out More</a>
+          <a href="#nearly_last_paragraph_2"><div class="popup" onclick="myFunction()">
+          <i class="fas fa-chalkboard-teacher"></i>&nbsp;
+  <span class="popuptext" id="myPopup">Swipe left to view or click to enter </span>&nbsp;<i class="fas fa-users">&nbsp;</i>Who we are</a>
         </button>
+        <script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
       </div>
 
 

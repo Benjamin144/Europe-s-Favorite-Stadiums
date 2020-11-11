@@ -15,9 +15,9 @@ function sendMail(contactForm) {
 
  
         (function() {
-            emailjs.init("user_vanqZMkpPOADQP2iEpqKS");
-            emailjs.send("gmail", "rosie", {
-                name: "Aaron",
+            emailjs.init("user_DITpcASPRplNJ1cwPXxAN");
+            emailjs.send("gmail", "template_8q5b5bd", {
+                name: "Joseph",
                 notes: "The project that I want is..."
             })
         })();

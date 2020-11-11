@@ -453,7 +453,7 @@ section .container .owl-nav {
 /* Popup container - can be anything you want */
 .popup {
   position: relative;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -473,7 +473,7 @@ section .container .owl-nav {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
+  right: 50%;
   margin-left: -80px;
 }
 
