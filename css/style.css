@@ -293,14 +293,11 @@ main .site-title .btn:hover {
 }
 
 
-#button {
-    color: var(--evergreen);
-}
-
 #myBtn {
   border: none;
   border-radius: 1rem;
-  padding: 1rem 3rem;
+  color: var(--midnight);
+  padding: 1rem;
   font-size: 1rem;
   font-weight: 700;
   font-family: var(--Livvic);
