@@ -1,4 +1,5 @@
 
+
 //set responsive items across site
 
 const responsive = {
@@ -30,7 +31,7 @@ $(document).ready(function () {
 })
 
 
-//* customised self manual scrolling carousel
+//customised self manual scrolling carousel
 
 
   
@@ -39,6 +40,7 @@ $(document).ready(function () {
    
 });
 
+//set responses for Carousel
 
 function initialize_owl(el) {
   el.owlCarousel({
@@ -63,19 +65,18 @@ function initialize_owl(el) {
   });
 }
 
-//Carousel functions//
-//*self drag away functionality on responsive carousel
-
-
+//New Carousel functions//
 $(document).ready(function () {
   initialize_owl($('#owl1'));
 
   
   }); 
-
+//self drag away functionality on responsive carousel
 function destroy_owl(el) {
   el.data('owlCarousel').destroy();
 }
+ //Loop through Carousel
+ 
 $(document).ready(function(){
   const owl = $('.owl-carousel')
   owl.owlCarousel({
@@ -85,8 +86,6 @@ $(document).ready(function(){
     items: 1,
     dots: true
   });
-  
-  
 
 
   

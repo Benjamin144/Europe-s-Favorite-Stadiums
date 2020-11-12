@@ -634,6 +634,7 @@ side by side...
 #Complete wireframes mark up for mobile, tablet & desktop design
 #Improve upon marker InfoWindows presention - (if there is time)
 #Implement Geolocation - (if there is time)
+#Would have populated explore link with a dropdown menu to navigate to marker locations but have more detail about venue
 
 #FINISHING UP#
 #Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
