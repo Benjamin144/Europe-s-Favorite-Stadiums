@@ -8,7 +8,6 @@
 	<title>Visit The Worlds Finest Sporting Venues</title>
 	<link rel="stylesheet" href="./css/style.css" type="text/css" />
 
-	<link rel="stylesheet" href="./css/all.css" />
 
 	<script src="https://kit.fontawesome.com/4c1c742860.js" crossorigin="anonymous"></script>
 	<!-- Custom Styles for CSS with Google Fonts-->
@@ -26,10 +25,14 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<script src="text/javascript"></script>
-		<script>(function(){
+	<script>
+		(function(){
             emailjs.init("user_DITpcASPRplNJ1cwPXxAN");
-        })();</script>
+        })();
+	</script>
 </head>
+
+<!-- Marketing Nav content items in development-->
 
 <body>
 	<nav class="nav">
@@ -70,7 +73,7 @@
 			</div>
 		</div>
 	</nav>
-
+<!-- User input uses emailJS to fulfil user credentials and auto replay from server-->
 	<div class="social text-gray">
 		<div class="form-signin">
 			<form onsubmit="return sendMail(this);" method="GET">
@@ -89,6 +92,21 @@
 		</div>
 	</div>
 
+<!-- Start of Footer -->
+
+			<div id="site-footer">
+				<nav class="nav">
+					<div class="nav-menu flex-row">
+						<div class="nav-brand">
+							<div class="social text-gray">
+								<a class="text" href="https://benjamin144.github.io/My-Resume/" title="Powered by MVN"
+									target="blank">Powered by MVN.</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+            
 	<script src="./js/main.js"></script>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
