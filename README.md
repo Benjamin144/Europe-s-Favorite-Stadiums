@@ -95,7 +95,12 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
     e @ jquery-3.5.1.min.js:2
     t @ jquery-3.5.1.min.js:2
     setTimeout (async)
-
+###############################################################################################################################################################################
+##SCOPE         Options are the Carousel or card style as a display mechanism
+                opted for a customized carousel that gives slick access to imagery and easy to implement
+                Thought about using a card style display but realised this would take yo lot of room on the website and become huge
+                future development would be to drill in to each image and link them directly to google maps geo location. (unable to implement this due to time constraints
+                
 ###############################################################################################################################################################################
 
 ##STRUCTURE     Navigational links for:

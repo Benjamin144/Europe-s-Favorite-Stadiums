@@ -1,5 +1,16 @@
 //Map Data - venue latling references:
 //var locations = [
+
+//[Stade PierreMauroy 50.6100112,3.1296953, 23]
+//[Stade PierreMauroy 50.6100112,3.1296953, 23]
+//[Armin-Wolf Arena, Germany 49.0257648,12.1373706, 22]
+//[Maracanã -22.9121089,-43.2323445, 21]
+//[Red Bull Arena 40.7368476,-74.1524242, 20]
+//[Nissan Stadium, Japan 35.5099504,139.604205, 19]
+//[Allianz Stadium, Italy 45.1096314,7.6390544, 18]
+//[Arena Pantanal, Brazil -15.6040194,-56.1916623, 17] 
+//[Hernando Siles Stadium, Bolivia -16.4994598,-68.1248678, 15],
+//['Santiago Bernabéu Stadium, Spain, 40.4530387,-3.6883337, 14],
 //['The o2 Arena', 51.502918, 0.0030256, 13],
 //['Baku Crystal Hall', 40.3664468, 49.8397079, 12],
 //['Cape Town Stadium', -33.9034601, 18.4111458, 11],
