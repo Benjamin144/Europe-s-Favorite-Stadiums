@@ -280,11 +280,18 @@ main .site-title .btn:hover {
     display: table-cell;
 }
 
+.fas i {
+    color: var(--evergreen);
+}
+
 .fas .fa-angle-double-left {
     float: left;
 }
 
-
+#text {
+    font-family: var(--Carter_One);
+    background-color: var(--evergreen);
+}
 
 .carousel-inner{
     height: 300px;
@@ -326,7 +333,9 @@ main .site-title .btn:hover {
 }
 
 
-
+#button {
+    color: var(--evergreen);
+}
 
 #myBtn {
   border: none;
