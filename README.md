@@ -121,6 +121,35 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
 at lower end of index.html site wanted to instruct user to swipe left but modal button is currently merged with pop up button. wanted to place icons
 side by side...
 
+#####################################################################################################################################################################################
+
+##TO DO lists:
+
+#Complete wireframes mark up for mobile, tablet & desktop design
+#Improve upon marker InfoWindows presention - (if there is time)
+#Implement Geolocation - (if there is time)
+
+#FINISHING UP#
+#Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
+#Source reference material about code used on the project 
+#Revise Mark up cheat sheet and use acordingly
+#Complete readMe template - covering all aspects of the web development for this project (including five planes)C
+
+#TESTING#
+#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
+#Check site UI - Ensure ease of use (does the site make sense).
+#Check rating with lighthouse (screenshot results and use in readMe)
+#Check responsiveness on all devices
+#Check responsiveness on all web browsers
+#Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial"
+#Run the code through (W3C) validators
+
+#SUBMITTING#
+#Complete png file presentation of front-end site visual across all screen sizes for readMe.
+#Check brief again and ensure all answers are met to the best of your ability
+#Complete MS2 submission on the code institute website - make sure correct email address is used.
+#Deploy live website post submission.
+
 
 
 
