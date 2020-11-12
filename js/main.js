@@ -48,7 +48,7 @@ function initialize_owl(el) {
     responsive: {
       0: {
         items: 1,
-nav: false
+        nav: false
       },
       600: {
         items: 1,
@@ -126,17 +126,7 @@ window.onclick = function(event) {
   }
 }
 
-$(function() {
 
-   $("body").mousewheel(function(event, delta) {
-
-      this.scrollLeft -= (delta * 30);
-    
-      event.preventDefault();
-
-   });
-
-});
 
 
 

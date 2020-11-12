@@ -63,6 +63,8 @@ Make the site secure - by using Log in - Admin/User (security|), I.e. (Later usi
 
 #Current Issues
 
+#emailJS implementation fails - unable to retrieve emails from subscriber page
+
 ####Is it bad or good practice to include JavaScript in an HTML ...
 A way of tracking incidents/bugs - like an alert system in conjunction with google maps
 could not justify not using js in map.html was unable to resolve a loading issue with the google map - read this article concerning an outstanding question, I have
