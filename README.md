@@ -442,6 +442,9 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
     e @ jquery-3.5.1.min.js:2
     t @ jquery-3.5.1.min.js:2
     setTimeout (async)
+
+
+    **resolved by changing the order of content in the main.js file - 
 ###############################################################################################################################################################################
 ##SCOPE         Options are the Carousel or card style as a display mechanism
                 opted for a customized carousel that gives slick access to imagery and easy to implement
@@ -603,6 +606,10 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
     e @ jquery-3.5.1.min.js:2
     t @ jquery-3.5.1.min.js:2
     setTimeout (async)
+
+    This issue has now been resolved by specifying the order of code to reflect the both the index.html and main.js files simultaneousley. script tags were equally specified or delated ad appropriate
+
+    Experienced further issues with a mdal uncaught Type Error where property onlick of null cannot be set
 ###############################################################################################################################################################################
 ##SCOPE         Options are the Carousel or card style as a display mechanism
                 opted for a customized carousel that gives slick access to imagery and easy to implement

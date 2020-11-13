@@ -371,7 +371,7 @@ section .container .owl-nav {
 
 .owl-nav .owl-prev .owl-nav-prev,
 .owl-nav .owl-next .owl-nav-next {
-  color: var(--sky);
+  color: var(--midnight);
   background: transparent;
   font-size: 25rem;
 }
