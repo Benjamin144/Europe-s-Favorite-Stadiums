@@ -293,7 +293,7 @@ main .site-title .btn:hover {
 }
 
 
-#myBtn {
+#mybtn {
   border: none;
   border-radius: 1rem;
   color: var(--midnight);
