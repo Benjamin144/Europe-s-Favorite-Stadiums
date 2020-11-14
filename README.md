@@ -408,7 +408,7 @@ Make the site secure - by using Log in - Admin/User (security|), I.e. (Later usi
 
 #Current Issues
 
-#emailJS implementation fails - unable to retrieve emails from subscriber page
+#emailJS implementation fails - unable to retrieve emails from subscriber page **resolved**
 
 ####Is it bad or good practice to include JavaScript in an HTML ...
 A way of tracking incidents/bugs - like an alert system in conjunction with google maps
@@ -444,7 +444,9 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
     setTimeout (async)
 
 
-    **resolved by changing the order of content in the main.js file - 
+    **resolved by changing the order of content in the main.js file - **resolved**
+    **resolved uncaught not defined type error in console for modal by moving JS to index.html file under modal because te complier was not reading the request from the js file **resolved** 
+    
 ###############################################################################################################################################################################
 ##SCOPE         Options are the Carousel or card style as a display mechanism
                 opted for a customized carousel that gives slick access to imagery and easy to implement
