@@ -74,6 +74,8 @@ p {
     text-align: center;
     line-height: 25px;
     justify-content: space-around;
+    color: var(--midnight);
+    font-family: var(--Josefin_Sans);
 }
 
 span {
@@ -314,6 +316,7 @@ box-shadow: 0 0 0 0.2rem rgb(29, 38, 106,0.5);
 border-style: none;
 color: whitesmoke;
 }
+
 
 .col{
     flex-basis: 0;
