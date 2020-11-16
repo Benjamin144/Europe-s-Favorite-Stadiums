@@ -2,6 +2,8 @@
 
 **2nd Milestone Project: Interactive Frontend Development - Code Institute**
 
+**[View the live project here.](https://benjamin144.github.io/europes-favorite-arenas]
+
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
 - [Demo](#demo)
@@ -269,29 +271,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the person.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Website.
 
-        1. Upon entering the site, users are met with a solid deep bl ue navigation bar to go to explore a choice of three other pages. Beneath the nav bar the user is impacted by a dynamic full width background image that bears my full animated name and 
-           job title. The user can click simultaneously switch between arrow and job title once clicked on scrolls down to the lower extremities of the page.  
-        2. Once there the user will quickly understand the purpose of the website which really is pre marketing a call to action, considering me as a potential employee, candidate or collaborator.
-        3. The user is free to scroll back up or back down the page to the footer, to see the details on how to stay in touch with me or choose to delve deeper into the website if still interested. With a handy 'back to the top' feature to save excessive scrolling.
-
+        1. Upon entering the site, users are met with a clean light gray navigation bar to go to explore a choice of three other pages. Beneath the nav bar the user will see a restful full width background image of grass turf,
+            which harks back to grassroots sports organisations. 
+        2. Once there the user will scroll or use the 'explore' short cut to access a set of instructions regarding the carousel and beneath that a an insight to the organisation, by pressing a modal button.
+        3. The user is free to scroll back up or back down the page to the footer using short cuts for convenience. 
+    
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to aid the user in making simple traditional choices when navigating around the site and the use of catchy imagery has been chosen to maintain interest, throughout their journey.
-           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time effect. The logo in the top right hand corner is non desript and it's purpose is to lead the user to the homepage when on other pages of the site.
-        2. In keeping with the home page style of presentation, I have kept the style very basic and honest with alot of white-space with symbolism. The idea behind this is to help the user push through the site as quickly as possible, only focussing in on what is necessary at the time of reading.
-           I have therefore minimized my profile to a modal button where again the user can breifly access it or stay interested.
-        3. When the user clicks on the Skills Page, they are met with more bold inviting images and quote to keep the user further engaged. Purpose being that it may help the user to focus on the content and information they were seeking. 
-           The use of the carousel is to further confirm the skillset on offer by me as a Front end web developer and how I would rate myself.
-        4. The user will be spending most of their time on this page, I have added a portfolio dropdown nav-item here so the user can see further examples of my learning of differing web development presentations.
-           On the final Contact Page the user can easily scroll down to a section where they have an option to get in touch with me 
+        1. The site has been designed to aid the user in making a varied choice in how they wish to use the site, some may want to find out bout resources & information about the charity
+           others my be interested by the sites functionality and the use of buttons and clicable links throughout site.
+           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time effect.
+        2. In keeping with the home page style of presentation, I have kept the style very basic and honest with easy access to other pages across the website. 
+        3. The use of the carousel is designed to access the images in a nonchalent manner
+        4. The user will be spending most of their time on the map page, once they have browsed through the different venues, they can get more detail from googlemaps interaction.
+           On the final Contact Page the user can easily scroll down to a section where they have an option to register with auto reply
         
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media links below which highlights the links to them.
+     
 
 -   #### Returning Visitor Goals
 
@@ -308,19 +307,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         5. The personal information section is set up to autofill 
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+    3. As a Returning Visitor, I want to find the links to various social media groups so that I can join and interact with others in the community.
 
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+        1. The Facebook Page can be found at the right hand side of index,map and subscribe pages and will open a new tab for the user and more information can be accessable on the Facebook page.
         
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to check to see if there are any newly added content to the site which furthers the interest of the business.
 
-        1. The user can use search components in the navigation bar to look for challenges
+        1. The user can use search components in the navigation bar and updates to the development of the site
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to check to see if there are any new information as I now have access to an intranet site linked to Super Arenas.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The user would already be comfortable with the website layout and can easily click on links for further developments of the site
 
 
 
@@ -340,10 +339,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the landing page background image appears to not fluidly stretch across the extremities of the navigation bar. 
--   A white gap can be seen down the sides of the landing page and navigation bar as a result looks wider
--   Last link in Navbar can appear relatively obscure or pushed sidways out of view when when screen sizes are rendered for Moto G4, Galaxy S5 and Pixel 2.
--   On Microsoft Edge and Internet Explorer Browsers....
+-  When switching from mobile view to desktop or tablet, the nav bar function remains extended if user forgets to toggle the menus
+    bar to close it in mobile screen sizes.
 
 ## Deployment
 
@@ -397,52 +394,22 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [Google Images Back End Server post](https://google.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [Animate.css](https://animate.style/) : For intro annimation on Landing page
-
--   [Clever Techie](https://www.youtube.com/watch?v=L0uNai3XyKQ) : For useful video tutorials discussing and demontrating Responsive Nav Bar with Bootstraps
-
--   [Buckie Roberts (The New Boston)](https://www.youtube.com/watch?v=qIULMnbH2-o) : For useful video tutorials discussing and demontrating Bootstraps tips and tricks
-
--   [Drew Ryan](https://www.youtube.com/watch?v=Zn64_IVLO88) : Took inspiration from building a Responsive Bootstrap Website Tutorial with Full Screen Landing Page
-
--   [Lawrence McDaniel](lawrencemcdaniel.com/home) : Inspired by this absolute Legend of a Web developer
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library template used for subscribe.html page, additional styling was used by me to change appearence
 
 -   [Stackoverflow)](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less) : Change bootstrap navbar collapse breakpoint without using LESS
 
 -   [Perishable Press](https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/) : Killer Collection of CSS Resets
 
--   [Stock Adobe](https://stock.adobe.com/) : Took inspiration from Stock of Architural type Imagery
+-   [w3schools](https://www.w3schools.com/howto/howto_css_modals.asp) : code snippets for modal function.
 
--   [Google Images](https://https://www.google.com/search?q=images+of+mainframe+computer&rlz=1C1CHBF_enGB896GB896&sxsrf=ALeKk00SBTdlKtEkNjLq2buy-mTbJzwn6g:1592084670906&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjj0ovK4f_pAhVCZMAKHRZ4Ca4Q_AUoAXoECBMQAw&biw=1920&bih=975#imgrc=xgulmTYgskvm-M/) 
-                    For Landing page I took inspiration from google images of how mainframe servers have changed over the years
+-   [Stackoverflow](https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example) : code idea and snippets for google markers and info windows functionality.
 
--   [Snook](https://snook.ca/archives/html_and_css/font-size-with-rem) : Font sizing with rem
-
--   [Stock Adobe](https://stock.adobe.com/) : Took inspiration from Stock of Architural type Imagery
-
--   [Awwwards](https://www.awwwards.com/) : Took inspiration from 'self proclained' The awards of design, creativity and innovation on the internet
-
--   [Hacker News](https://news.ycombinator.com/item?id=11098891) : Took inspiration from a paraphrased quote by Joe Armstrong
-
--   [The Code Institute](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/79eac486cc0c4c9aa54cbe54d009287c/?child=last) 
-                    Took inspiration from a series of Code Institute Tutorials - This was one of my favorites.
-
-
-
-
-
-   
-
+-   [Daily Tuition](https://www.youtube.com/watch?v=CrSC1ZA9j0M) : Guide to creating jQuery driven interactive nav bar menu items
 
 ### Content
 
 -   All content was written by Joseph Roberts.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
@@ -455,166 +422,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Tutor support at Code Institute for their support.
 
 -   The Code Institute Slack community for their ongoing support.
-
--   I would also like to say a special thanks to Brian O'Grady, Programme Director & Matt Rudge a Senior Product Developer at The Code Institute for their teaching .
-
-####################################################################################################################################################################################
-
-###
-
-####Reduce file sizes - Previously changed from jpeg to png.. but may have to compress ping further if possible and replace all image file batches
-
-################################################################################################################################################################################
-
-
-###Conclusion
-
-Travel Companion Website/App
-Card style graphics
-
-Features
-Google Driven API - Marker locators
-Email JS driven Subscription Service
-Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
-
-The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
-
-Future Development - Features
-Tech Stack: C# - ASP.net Core MVC application
-
-Learn and Implement a C.R.U.D. database - for future proofing.
-Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
-
-#Current Issues
-
-#emailJS implementation fails - unable to retrieve emails from subscriber page
-
-####Is it bad or good practice to include JavaScript in an HTML ...
-A way of tracking incidents/bugs - like an alert system in conjunction with google maps
-could not justify not using js in map.html was unable to resolve a loading issue with the google map - read this article concerning an outstanding question, I have
-
-
-Dev option that tracks/updates/logs new information and changes to the database
-It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
-JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
-
-####Reduce file sizes - Previously changed from jpeg to png.. but may have to compress ping further if possible and replace all image file batches
-
-################################################################################################################################################################################
-[View the live project here.](https://benjamin144.github.io/europes-favorite-arenas
-
-
-
-
-
-
-
-
-
-
-                
-
-###############################################################################################################################################################################
-
-#Solutions
-
-###Able to reference markers by index.html "country" & mapdata.js "latling" "venue name"
-
-###I need to further develop buttons on index.html file. I was unable to re-position pop up at this points
-at lower end of index.html site wanted to instruct user to swipe left but modal button is currently merged with pop up button. wanted to place icons
-side by side...
-
-#####################################################################################################################################################################################
-
-##TO DO lists:
-
-#Complete wireframes mark up for mobile, tablet & desktop design
-#Improve upon marker InfoWindows presention - (if there is time)
-#Implement Geolocation - (if there is time)
-
-#FINISHING UP#
-#Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
-#Source reference material about code used on the project 
-#Revise Mark up cheat sheet and use acordingly
-#Complete readMe template - covering all aspects of the web development for this project (including five planes)C
-
-
-
-#SUBMITTING#
-#Complete png file presentation of front-end site visual across all screen sizes for readMe.
-#Check brief again and ensure all answers are met to the best of your ability
-#Complete MS2 submission on the code institute website - make sure correct email address is used.
-#Deploy live website post submission.
-
-
-
-
-
-###############################################################################################################################################################################
-##SCOPE         
-                
-###############################################################################################################################################################################
-
-##STRUCTURE     Navigational links for:
-                Home 
-                Storylines/storyboards and experiences of travelling adventures to venues on tour, could be linked to profile stadium thumbnails.
-                Newsletters for forthcoming promotional events.
-                Blog posts for trending and popular posts concerning travel, hospitatilty experience, critic's
-
-###############################################################################################################################################################################
-
-#Solutions
-
-###Able to reference markers by index.html "country" & mapdata.js "latling" "venue name"
-
-###I need to further develop buttons on index.html file. I was unable to re-position pop up at this points
-at lower end of index.html site wanted to instruct user to swipe left but modal button is currently merged with pop up button. wanted to place icons
-side by side...
-
-#####################################################################################################################################################################################
-
-##TO DO lists:
-
-#Complete wireframes mark up for mobile, tablet & desktop design
-#Improve upon marker InfoWindows presention - (if there is time)
-#Implement Geolocation - (if there is time)
-#Would have populated explore link with a dropdown menu to navigate to marker locations but have more detail about venue
-
-#FINISHING UP#
-#Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
-#Source reference material about code used on the project 
-#Revise Mark up cheat sheet and use acordingly
-#Complete readMe template - covering all aspects of the web development for this project (including five planes)C
-
-#TESTING#
-#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
-#Check site UI - Ensure ease of use (does the site make sense).
-#Check rating with lighthouse (screenshot results and use in readMe)
-#Check responsiveness on all devices
-#Check responsiveness on all web browsers
-#Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial" 
-- could not get THIS  emailjs.send("gmail","template_8q5b5bd",{name: "Joe", notes: "I want to donate £100000000...."); line of code to work!
-#Run the code through (W3C) validators
-
-#OUTCOMES#
-#Directional arrow buttons need to be more responsive on smaller monbile devcies (size of buttons squewed, try changing media queries)
-
-#SUBMITTING#
-#Complete png file presentation of front-end site visual across all screen sizes for readMe.
-#Check brief again and ensure all answers are met to the best of your ability
-#Complete MS2 submission on the code institute website - make sure correct email address is used.
-#Deploy live website post submission.
-
-#Complete readMe
-#upload wire Frameworks
-Record References
-
-#Final Testing
-Test Site with all popular browsers
-Test with lighthouse and resolve errors
-cross check with last critic
-submit project.
-
-
-
 

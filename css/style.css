@@ -630,6 +630,12 @@ section .container .owl-nav {
 }
 
 
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
 @media only screen 
    and (max-width : 640px) 
    and (max-height : 1136px) {
