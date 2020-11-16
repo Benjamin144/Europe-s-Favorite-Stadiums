@@ -29,9 +29,9 @@
 
 ## Introduction
 
-The main thrust of the site is to try and create an opportunity for the user to learn about sporting venues and surrounding areas across the world with then to enter competitions for 
+The main thrust of the site is to try and create an opportunity for the user to learn about sporting venues and surrounding areas across the world. They then have an option to enter a competitions for 
 a chance to win a bespoke holiday tour. Super Arenas is a fictional based charitable organisation that raises awareness of iconic sporting venues across the globe and promotes exclusive tours 
-to far flung destinations, in return general users of the site can become members and pay a monthly subscription and get incentives throughout the year. The revenue is put back io
+to far flung destinations, in return general users of the site can become members and pay a monthly subscription to get incentives throughout the year. The revenue is put back 
 into grassroots sports to help further develop talent and fitness in adults and primarily children.
 
 ## Conclusion
@@ -44,13 +44,14 @@ Google Driven API - Marker locators
 Email JS driven Subscription Service
 Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery].
 
-The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
+## The learning outcomes
+To use JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
 
-Future Development - Features
+## Future Development - Features
 Tech Stack: C# - ASP.net Core MVC application
 Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
 
-Current Issues
+## Current Issues
 
 #emailJS implementation fails - unable to retrieve emails from subscriber page, - script tags incorrectly coded. **resolved**
 #was unable to resolve a loading issue with the google map - correct function used **resolved**
@@ -64,15 +65,16 @@ Current Issues
 ### Strategy
 To design a functional styled website that acts as a basis of information but the site guides the user through a series of navigational links throughout the site
 in a logical manner, whilst stopping at various points to open various content features. The purpose of which is to highlight Sports Stadiums across the world to make the user aware 
-of existence of the structure and the enviromnment surrounding it using the google API's. The stadium structures will be updated periodically as new competitons arise.
+of existence of the structure and the enviromnment surrounding it using the Google API's and the enhanced Google Maps platform. The stadium structures will be updated periodically as new competitons arise.
 This would keep the possibility of users coming back to use the site because of interest and intrigue.
 
 ### Scope
 The pages allow the intended user to access visual information about various Sports Arenas around the world in a manual fashion.
-The options preconcieved in this project is firstly to use a self dragging Carousel or secondly a  card style information window as a display mechanism.
+The functionality in this project will primarily be a self dragging Carousel or a card styled information window as a display mechanism.
 I then opted for a customized carousel that gives slick access to imagery and implementation of JS language.
 As there was an option to use card style displays, I realised this would take up lot of room on the website and may overwhelm the user.
-*Future development would be to link each image directly to google maps geo interface (I was unable to implement this because of time constraints)
+Future development would be to link each image directly to Google Maps interface and also implement Geolocations, instead of manually clicking on map markers, then zooming into 
+the locality.(I was unable to implement this because of time constraints)
 
 
 -   ### User stories
@@ -90,26 +92,28 @@ As there was an option to use card style displays, I realised this would take up
         3. As a Subscriber             ||  I want to locate their organizations social media links to see their followings on social media to determine how trusted and known they are.
 
     -   #### Frequent User Goals
-        1. As a Partners               ||  I want to check to see if your evolving and if you're interested in how to inprove things for others
+        1. As a Partners               ||  I want to check to see if the site is evolving and if they shoe interest in how to inprove their global out reach
         2. As a Service Provider       ||  I want to check to see if there are any service/development based sites linked to the main site
         3. As a Subscriber             ||  I would like inspiration and an openess to different ways of looking at the world events and would engage on that basis and become a member.
 
 
 ### Structure
-I want to make the website scrolls down the page site but also has nav items, i.e (about me). The links would help the user understand the nature of the website, which is to promote an organisation that is willing
+I want to make the website scrolls down the page site but also navigate onto another page, i.e (about me). The links would help the user understand the nature of the website, which is to promote an organisation that is willing
 to contribute to community projects, by raising funds to help develop sports of all genres at grassroots level. In this case the 'About' navlink takes the user to a seperate page which gives the user an opportunity
-to subscribe and return to the home page. 'Learn more' button is only linked t the home page at present, but as the project develops the link will be updated to other site areas such as 'Articles', 'Newsletters' Blog posts' and 'News feeds'
-Yet on the home page the user can click on the 'Explore' nav-item, to immediatly scroll down the page to a presentation of various Arenas across the World. The user may also use a mouse
+to subscribe and return to the home page. 'Learn more' button is only linked t the home page at present, but as the project develops the link will be updated to other site areas such as 'Articles', 'Newsletters' Blog posts' and 'News feeds'.
+Yet on the home page the user can click on the 'Explore' nav-item, to immediately scroll down the page to a presentation of various Arenas across the World. The user may also use a mouse
 to either drag the slider left and right to loop throught the images. There is also an option to use the buttons to work the slider. I expected that this form of presentation would be the main feature that
-the user would be working from, therefore added some additional features such as 'dots' to help the user understand what position they are in on the slider, and 'i' information tool tip modal  
-and some text to further solidify operation. This was done because a design issue of the carousel not set to auto play meant that if the user click the carousel in the white space by accident
-the href points to maps.html. Carousel in essence is a 'Touch' enabled jQuery plugin that lets developers create responsive carousel slider.
+the user would be working from on this page, I therefore added some additional features such as 'dots' to help the user understand what position they are in on the slider, and 'i' information tool tip popup. 
+and some text to further solidify operation. Furthermore these features were implemented because of a design flaw of the carousel.I was unable to set the Carousel to auto play, this  mean't that if the user click the carousel 
+in the white space between each image, by accident the href attributes of the carousel would link to maps.html. However for purposes of this site, the Owl Carousel in essence is a 'Touch' enabled jQuery plugin 
+that lets developers create responsive carousel sliders.
 
-#issues, that needed further development - unable to implement a workable 'autoplay' solution as an option, so the carousel remained manually operated. 
-                                         - pressing between images whilst trying to swip the display left or right could inadvertantly navigate the user to map.html
-                                            the solution to this would have been to have the white space unclickable.
-Additional site structure would have storylines/storyboards and experiences of travelling adventures to venues on tour, Newsletters for forthcoming promotional events. Blog posts for trending and popular posts concerning travel, 
-hospitatilty experience, critic's.
+## issues, that needed further development 
+- unable to implement a workable 'autoplay' solution as an option, so the carousel remained manually operated. 
+- pressing between images whilst trying to swip the display left or right could inadvertantly navigate the user to map.html
+- the solution to this would have been to have the white space unclickable.
+- Additional site structure would have storylines/storyboards and experiences of travelling adventures to venues on tour, Newsletters for forthcoming promotional events. Blog posts for trending and popular posts concerning travel, 
+  hospitatilty experience, critic's.
 
 
 ### Skeleton
@@ -241,13 +245,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to aid the user in making a varied choice in how they wish to use the site, some may want to find out bout resources & information about the charity
-           others my be interested by the sites functionality and the use of buttons and clicable links throughout site.
-           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time effect.
+        1. The site has been designed to aid the user in making a varied choice in how they wish to use the site, some may want to find out about resources & information about the charity,
+           others my be interested by the sites functionality and the use of buttons and clickable links throughout site.
+           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time and change color effect.
         2. In keeping with the home page style of presentation, I have kept the style very basic and honest with easy access to other pages across the website. 
-        3. The use of the carousel is designed to access the images in a nonchalent manner
+        3. The use of the carousel is designed to access the images in a nonchalent manner.
         4. The user will be spending most of their time on the map page, once they have browsed through the different venues, they can get more detail from googlemaps interaction.
-           On the final Contact Page the user can easily scroll down to a section where they have an option to register with auto reply
+        5. On the final Contact Page the user can easily scroll down to a section where they have an option to register with auto reply
         
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
@@ -258,15 +262,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a Returning Visitor, I want to find out more about  the organisations brand and social awareness
 
         1. Would like to see alot of membership engagement and available content in the form of popular posts, blog posts, various articles, and newsfeeds
-        2. As the purpose of the site goals are not consistent at this early stage nevertheless will be introduced in the future.
+      
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. The navigation bar has an opportnity to contact me with a 'Call to action' as a Nav-item link to the Contact Page.
-        2. The visitor can then  fill out a form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter Reddit, Google, YouTube and Pinterest page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The personal information section is set up to autofill 
+
+        1. The visitor can then  fill out a form on the page or are told that alternatively they can message the organisation on social media.
+        2. The footer contains links to the organisations Facebook, Twitter Reddit, Google, YouTube and Pinterest page as well as the organization's email.
+        3. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        4. The personal information section is set up to autofill 
 
     3. As a Returning Visitor, I want to find the links to various social media groups so that I can join and interact with others in the community.
 
@@ -286,9 +290,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome.
+-   The Website was tested on Google Chrome. Internet Explorer, Firefox and Opera, the screen sizes were good and images appeared to scale well
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iphone6 iPhone7, iPhone 8 iPhoneX, iPad, iPad Pro and Pixel 2XL
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   A large amount of testing was done to ensure that all pages were linking correctly.'#'was used where page links were not developed to their final resolution.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
@@ -299,6 +303,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     bar to close it in mobile screen sizes.
 
 ## Deployment
+
+The site is deployed published at https://benjamin144.github.io/Europes-Favorite-Arenas/ from my GitHub Pages
 
 ### GitHub Pages
 
