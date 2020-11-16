@@ -29,77 +29,31 @@
 
 ## Introduction
 
-Initial idea
+The main thrust of the site is to try and create an opportunity for the user to learn about sporting venues and surrounding areas across the world with then to enter competitions for 
+a chance to win a bespoke holiday tour. Super Arenas is a fictional based charitable organisation that raises awareness of iconic sporting venues across the globe and promotes exclusive tours 
+to far flung destinations, in return general users of the site can become members and pay a monthly subscription and get incentives throughout the year. The revenue is put back io
+into grassroots sports to help further develop talent and fitness in adults and primarily children.
 
-To design a functional styled website that purposefully pushes the user through a series of navigational links so that they can navigate through the site
-in a logical manner, whilst stopping at various points to absorb content.
-
-The main thrust of the site is to try and create an opportunity for the customer to learn about great venues and surrounding areas across the world with the view of one day having 
-a chance to visit them by winning a competition funded by Super Arenas. Super Arenas is a fictional based charitable organisation that wishes to raise awarenes of Stadium structures
-in sporting venues across the globe and promotes exclusive tours to far flung destinations, but wishes nothing more that people join their organisation and push back the proceeds of 
-their respective revenues into grassroots sports to help developing talent and fitness in children primarily and adults alike who enbark upon a sport made accessable in their own 
-communities.
-
-The name of the website changed a few times! Elite Football Stadiums then World Stadiums then European Stadium Tours, was my first set of ideas....Fast forward to my conclusion to the story,...I then realized that a solution to
-the idea was going to be impacted by COVID 19 because of major restrictions to travel. Therefore the site could become functional for the purpose of presenting an alternative way of
-presenting information about particular venues across the world for now. However I wanted to use the idea to explore my learning and make the site interactive using javascript
-
-So the back story was that the original idea came from a distant admiration for major architecture in general and exclusively in sport and the history of arenas used across the world 
-since time began. The first idea was to build the Worlds Elite Football Stadiums app - (WEFS) or Elite League Football Grounds.
-The idea was to create a website which lists all of this years Champions League Football Grounds information. Then use the Google's api as a ground locator.
-The code would then attempt to split the locations into Northern, Eastern, Southern and Western European regions which would aid in the use of easy travel optimization.
-
-In graphical terms this would look like a simple circle that splits into four zonal perimeters. This format then allows the user to click on each zonal area to reveal the information 
-about the football ground location and it's amenities, i.e. capacity, parking, access points so on and so forth.
-
-Further development would engage upon using the current statistical trends to predict which teams will make up the new World Elite League that is under current discussion.
-There would then have to be a method of storing the information of all stadiums in Europe and a way to retrieve the data when an upcoming event occurs in the future champions league 
-scenarios.
-
-I understand that the scope of this project might be beyond the scope of my skill set and I only had a limited window of opportunity to complete the development
-
-Finalizing the idea
-
-I then realized that this concept might not stoke the interests of the public at large. So I thought why not increase the scope and development to all types of sporting arenas across 
-World and then make the app a travelling companion called World Stadium Tours - This might solve a business problem geared towards the Hospitality industry. I would then go on to build 
-a three page site, with the understanding of adding in future links to storys, popular posts, newsletters, articles, blogs and promotions.
-
-Therefore the site would comprise.
-
-1st page - Landing with optional Register - Sign in and search functionality
-2nd page - Table format of 26 clickable sporting disciplines (has navigation button to go back to previous page)
-3rd page - information which highlights a stadium venue to the left, stats and info to the right and google api features on the bottom. 
-This also has a navigation button to go back to the previous page and also a forward button for the next stadium venue. 
-The 2nd and 3rd pages will also have a home button to navigate back to the Landing page
-
-Conclusion
+## Conclusion
 
 Travel Companion Website/App
-Card style graphics
+Card or Carousel style display.
 
-Features
+## Features
 Google Driven API - Marker locators
 Email JS driven Subscription Service
-Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
+Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery].
 
 The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
 
 Future Development - Features
 Tech Stack: C# - ASP.net Core MVC application
-
-Learn and Implement a C.R.U.D. database - for future proofing.
 Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
 
 Current Issues
 
 #emailJS implementation fails - unable to retrieve emails from subscriber page, - script tags incorrectly coded. **resolved**
 #was unable to resolve a loading issue with the google map - correct function used **resolved**
-
-Some research about JS presentation question I had
-Is it bad or good practice to include JavaScript in an HTML ...?
-Dev option that tracks/updates/logs new information and changes to the database
-It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
-JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
 
 ## Demo
 
