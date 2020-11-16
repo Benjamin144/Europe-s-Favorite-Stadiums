@@ -2,7 +2,7 @@
 
 **2nd Milestone Project: Interactive Frontend Development - Code Institute**
 
-<h2 align="center"><img src="https://github.com/Benjamin144/My-Resume/blob/master/"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Multi%20Device%20Demo1.png"></h2>
 
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
