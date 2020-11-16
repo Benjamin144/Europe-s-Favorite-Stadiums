@@ -2,18 +2,8 @@
 
 **2nd Milestone Project: Interactive Frontend Development - Code Institute**
 
-## Introduction
-Welcome to my second Milestone project. The following demonstration of my capabilities concerning this site is to help showcase my ongoing progress as a coder into the typical styles I would adhere to based on my current skillset and experience in HTML, CSS, and now the introduction of Javscript and Jquery.
-My intended audience for this project are .................. Collaborators within Front End Web development. I am more comfortable with HTML & I notice that a large bulk of my coding implementation is CCS. Adding Javascript and Jquery coding practices to my project has helped me understand that I can use alternative methods of practice to acheive a similar goal, but I also found out that it would restrict how I could use the functionality in conjunction with libraries such as Bootstraps from the ground up. An example of this is the navigational bar where I have not used a generic template in Bootstraps, but the style is driven with Javascript in mind, or the carousel fitted the purpose of how I was to present the look and feel of sample images in a more functional fashion more easily than getting into a conundrum of using a layout that would possibly restrict the amount of images I could reasonably display on a carousel on this project. Also with this in mind avoid using a nominal card format, as this good website example..https://travel.sygic.com/en/list/popular-soccer-stadiums-in-south-and-central-america-continent:7 which could have expanded the site too much and potentially become a bad UI to some. So as always I have kept the project simple and hopefully self explanatory moing forward.
-[View the live project here.](https://benjamin144.github.io/europes-favorite-arenas
-
-
-<h2 align="center"><img src="https://github.com/Benjamin144/My-Resume/blob/master/josephroberts.png"></h2>
-
-
-
 ## Contents
-- [Introduction](#joe-roberts-personal-portfolio---first-milestone-project)
+- [Introduction](#joe-roberts-super-arenas---second-milestone-project)
 - [Demo](#demo)
 - [UX](#ux)
     * [Strategy](#strategy)
@@ -34,55 +24,149 @@ My intended audience for this project are .................. Collaborators withi
     * [Media](#media)
     * [Acknowledgments](#acknowledgements)
 
+
+## Introduction
+
+Initial idea
+
+To design a functional styled website that purposefully pushes the user through a series of navigational links so that they can navigate through the site
+in a logical manner, whilst stopping at various points to absorb content.
+
+The main thrust of the site is to try and create an opportunity for the customer to learn about great venues and surrounding areas across the world with the view of one day having 
+a chance to visit them by winning a competition funded by Super Arenas. Super Arenas is a fictional based charitable organisation that wishes to raise awarenes of Stadium structures
+in sporting venues across the globe and promotes exclusive tours to far flung destinations, but wishes nothing more that people join their organisation and push back the proceeds of 
+their respective revenues into grassroots sports to help developing talent and fitness in children primarily and adults alike who enbark upon a sport made accessable in their own 
+communities.
+
+The name of the website changed a few times! Elite Football Stadiums then World Stadiums then European Stadium Tours, was my first set of ideas....Fast forward to my conclusion to the story,...I then realized that a solution to
+the idea was going to be impacted by COVID 19 because of major restrictions to travel. Therefore the site could become functional for the purpose of presenting an alternative way of
+presenting information about particular venues across the world for now. However I wanted to use the idea to explore my learning and make the site interactive using javascript
+
+So the back story was that the original idea came from a distant admiration for major architecture in general and exclusively in sport and the history of arenas used across the world 
+since time began. The first idea was to build the Worlds Elite Football Stadiums app - (WEFS) or Elite League Football Grounds.
+The idea was to create a website which lists all of this years Champions League Football Grounds information. Then use the Google's api as a ground locator.
+The code would then attempt to split the locations into Northern, Eastern, Southern and Western European regions which would aid in the use of easy travel optimization.
+
+In graphical terms this would look like a simple circle that splits into four zonal perimeters. This format then allows the user to click on each zonal area to reveal the information 
+about the football ground location and it's amenities, i.e. capacity, parking, access points so on and so forth.
+
+Further development would engage upon using the current statistical trends to predict which teams will make up the new World Elite League that is under current discussion.
+There would then have to be a method of storing the information of all stadiums in Europe and a way to retrieve the data when an upcoming event occurs in the future champions league 
+scenarios.
+
+I understand that the scope of this project might be beyond the scope of my skill set and I only had a limited window of opportunity to complete the development
+
+Finalizing the idea
+
+I then realized that this concept might not stoke the interests of the public at large. So I thought why not increase the scope and development to all types of sporting arenas across 
+World and then make the app a travelling companion called World Stadium Tours - This might solve a business problem geared towards the Hospitality industry. I would then go on to build 
+a three page site, with the understanding of adding in future links to storys, popular posts, newsletters, articles, blogs and promotions.
+
+Therefore the site would comprise.
+
+1st page - Landing with optional Register - Sign in and search functionality
+2nd page - Table format of 26 clickable sporting disciplines (has navigation button to go back to previous page)
+3rd page - information which highlights a stadium venue to the left, stats and info to the right and google api features on the bottom. 
+This also has a navigation button to go back to the previous page and also a forward button for the next stadium venue. 
+The 2nd and 3rd pages will also have a home button to navigate back to the Landing page
+
+Conclusion
+
+Travel Companion Website/App
+Card style graphics
+
+Features
+Google Driven API - Marker locators
+Email JS driven Subscription Service
+Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
+
+The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
+
+Future Development - Features
+Tech Stack: C# - ASP.net Core MVC application
+
+Learn and Implement a C.R.U.D. database - for future proofing.
+Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
+
+Current Issues
+
+#emailJS implementation fails - unable to retrieve emails from subscriber page, - script tags incorrectly coded. **resolved**
+#was unable to resolve a loading issue with the google map - correct function used **resolved**
+
+Some research about JS presentation question I had
+Is it bad or good practice to include JavaScript in an HTML ...?
+Dev option that tracks/updates/logs new information and changes to the database
+It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
+JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
+
+## Demo
+
+<h2 align="center"><img src=""></h2>
+
 ## User Experience (UX)
 
 ### Strategy
-Moving on I've designed and built this website to deliberately focus on standard navigation across entire site to promote a simple look and feel with a 'pop' of colour here and there. 
+To design a functional styled website that acts as a basis of information but the site guides the user through a series of navigational links throughout the site
+in a logical manner, whilst stopping at various points to open various content features. The purpose of which is to highlight Sports Stadiums across the world to make the user aware 
+of existence of the structure and the enviromnment surrounding it using the google API's. The stadium structures will be updated periodically as new competitons arise.
+This would keep the possibility of users coming back to use the site because of interest and intrigue.
 
 ### Scope
-The pages allow the intended user to focus on the market strategy for presenting information briefly as they don't have to choose to scroll through endless body text. 
-They might just see that I can trust this guy to get my projects out the door in a dependable fashion.
+The pages allow the intended user to access visual information about various Sports Arenas around the world in a manual fashion.
+The options preconcieved in this project is firstly to use a self dragging Carousel or secondly a  card style information window as a display mechanism.
+I then opted for a customized carousel that gives slick access to imagery and implementation of JS language.
+As there was an option to use card style displays, I realised this would take up lot of room on the website and may overwhelm the user.
+*Future development would be to link each image directly to google maps geo interface (I was unable to implement this because of time constraints)
+
 
 -   ### User stories
 
     -   #### First Time Visitor Goals
 
-        1. As an Employer       ||  I want to easily understand the main purpose of the site and learn more about the individuals experience plus by accessing recent projects they might have and also to be able to see a CV to form an impression of the persons character.
-        2. As a Recruiter       ||  I want to be able to easily navigate throughout the site to share information with my peers, and to find content like a downloadable CV or some ind of demonstration of talent.  
-        3. As a Collaborator    ||  I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As an Partner               ||  I want to understand the global purpose of the site and learn more about the site content in terms of understanding local community projects and developments.
+        2. As a Service Provider       ||  I want to be able navigate throughout the site to work in conjunction with organisers & members exclusively. 
+        3. As a Subscriber             ||  I am a sports enthusiast or have world interests & curious about large events and themes wanting to explore more. 
 
     -   #### Returning Visitor Goals
 
-        1. As an Employer       ||  I want to drill deeper and source their problem solving capabilities.
-        2. As a Recruiter       ||  I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Collaborator    ||  I see what kind of improvements could be made everywhere, my past projects may be revitalized they can get access to my git repos for more learning.
+        1. As an Partner               ||  I want to look for testimonials to understand what our users think of us in the media posts.
+        2. As a Service Provider       ||  I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. As a Subscriber             ||  I want to locate their organizations social media links to see their followings on social media to determine how trusted and known they are.
 
     -   #### Frequent User Goals
-        1. As an Employer       ||  I want to check to see if your evolving and if you're interested in how to inprove things for others
-        2. As a Recruiter       ||  I want to check to see if there are any new blog posts.
-        3. As a Collaborator    ||  I would like inspiration and an openess to different ways of looking at the world and would engage on that basis
+        1. As a Partners               ||  I want to check to see if your evolving and if you're interested in how to inprove things for others
+        2. As a Service Provider       ||  I want to check to see if there are any service/development based sites linked to the main site
+        3. As a Subscriber             ||  I would like inspiration and an openess to different ways of looking at the world events and would engage on that basis and become a member.
+
 
 ### Structure
-I want to make the website  that is easily understood or done so; presenting no difficulty. The visual communication is quick and to the point, collaborators can pause at any point and be lead by the sites journey, and if they don't have too much time on their hands, 
-then they can easily jump to the end where they aren't overburdened by too much call to action, it's about the simplicity of information presented. The site flows simultaneousley across four pages
-So I preferred to use .col-3 at most points throughout the site because I found it was nice to work with avoiding scaling issues and flexible enough for mobile responsiveness.
-I used centered text and visual aids to navigate the user through their experience when using the site. From another aspect I tried to use the imagery 
-to evokes my interest in architecture, industrial design and the arts through the ages and the enviromnment around us provides which help provide a visual landscape. 
-The logo has been created by myself. My navigational elements are `fixed` and visual links ease in and out on the top of the viewport throughout. There is an optional modal on the about.html page that reveals more detaiked information
-Each page is srollable, providing 'eye comfort' and revealing a large but modest footer providing access to my personal details. This information is consistent through each page.
+I want to make the website scrolls down the page site but also has nav items, i.e (about me). The links would help the user understand the nature of the website, which is to promote an organisation that is willing
+to contribute to community projects, by raising funds to help develop sports of all genres at grassroots level. In this case the 'About' navlink takes the user to a seperate page which gives the user an opportunity
+to subscribe and return to the home page. 'Learn more' button is only linked t the home page at present, but as the project develops the link will be updated to other site areas such as 'Articles', 'Newsletters' Blog posts' and 'News feeds'
+Yet on the home page the user can click on the 'Explore' nav-item, to immediatly scroll down the page to a presentation of various Arenas across the World. The user may also use a mouse
+to either drag the slider left and right to loop throught the images. There is also an option to use the buttons to work the slider. I expected that this form of presentation would be the main feature that
+the user would be working from, therefore added some additional features such as 'dots' to help the user understand what position they are in on the slider, and 'i' information tool tip modal  
+and some text to further solidify operation. This was done because a design issue of the carousel not set to auto play meant that if the user click the carousel in the white space by accident
+the href points to maps.html. Carousel in essence is a 'Touch' enabled jQuery plugin that lets developers create responsive carousel slider.
+
+#issues, that needed further development - unable to implement a workable 'autoplay' solution as an option, so the carousel remained manually operated. 
+                                         - pressing between images whilst trying to swip the display left or right could inadvertantly navigate the user to map.html
+                                            the solution to this would have been to have the white space unclickable.
+Additional site structure would have storylines/storyboards and experiences of travelling adventures to venues on tour, Newsletters for forthcoming promotional events. Blog posts for trending and popular posts concerning travel, 
+hospitatilty experience, critic's.
+
 
 ### Skeleton
 
 -   ### Design
     -   #### Colour Scheme
-        -   I have used primary colours accross the sight the heading colours are Blue and the secondary colours are Orange, Green & Purple.
+        -   I have used the following global palette of colors for this project: --evergreen: #38855d; --text-gray: #112d60; --text-light: #686666da; --bg-color: #0e3746; --white: #fffaf2; --midnight: #104f55; --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     -   #### Typography
-        -   The Mitr & Roboto fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
-            I used Mitr as it is a sans serif styled font and it has a friendly feel iwhich I wanted to bring out in the site design layout, whilst Roboto is known for being an easy to read font and rythmic 
-            according to 'Google Fonts both are all relevant to readability, legibility, and overall texture in programming so I deemed them appropriate to use on this website.
+            I have used light font themes to add a friendly non formal appearence: "Carter_One", "Josefin", "Livvic", "Roboto".
+        -   The Livvic font=family for nav links across the site & Carter_One commonly used across the site, with Josefin secondary font, which is light non invasive, 
+            
     -   #### Imagery
-        -   I have selected imagery to evoke a sense of spatial distribution within a given environment. The large, background images are architectual in nature and is designed to give a visual impact where 
-            the image colour schemes contrast or compliment the navigational elements and components on the website.
+        -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the stadium convert well on all screen sizes
  
 
 [Landing Page](https://github.com/Benjamin144/My-Resume/blob/master/Landing.png)
@@ -93,36 +177,37 @@ Each page is srollable, providing 'eye comfort' and revealing a large but modest
 
 ### Surface
 
-My site has a modern, clean look and feel, using several background images on individual pages to create a "treat" throughout the website I use plenty of colours for my icons, fonts and other elements.
-
+My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. I have used 'green' background images to celebrate sports development at grassroots level
+but did not want to overwhelm the user with images totally geared to sport because I wanted to attract a neutral audience
 <p align="right">
-  <a href="joseph-roberts-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+  <a href="joseph-roberts-super-arenas---second-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
-
-Most of the Features within my Portfolio are using the Bootstrap Front-end Component Libary
-I have also used Animate.css which is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.
-
-My intention is to add my own live projects for my partners in business.
+-   Interactive elements, such as, pull down nav bars, carousel, modals, maps API and email functionality. 
 
 ## Technologies Used
+
+All of the Features within the Super Arenas website  using  Javascript, Jquery CSS & HTML core, 'OWL' and 'Bootstrap' Front-end Component Libaries, GoogleMaps API, and EmailJS.
 
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JS](https://en.wikipedia.org/wiki/JavaScript)
+-   [JQ](https://en.wikipedia.org/wiki/jQuery)
+
+
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Animate.css:](https://animate.style/)
-    - Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.
+1. [Owl.Carousel 2:](https://owlcarousel2.github.io/OwlCarousel2/)
+    - Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -133,23 +218,88 @@ My intention is to add my own live projects for my partners in business.
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99)
+    - Paint 3D s a built-in creative application that comes free with Windows 10*.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
     <p align="right">
-  <a href="joseph-roberts-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+  <a href="joseph-roberts-super-arenas---second-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Testing
 
-I have tested my portfolio using Chromes developer tools, and Browserstack
+I have tested my portfolio using Chromes developer tools, and Light House
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-As the site is under development their are currently 28 syntax issues that will be corrected in due course
+
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+
+
+
+#TESTING#
+#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
+#Check site UI - Ensure ease of use (does the site make sense).
+#Check rating with lighthouse (screenshot results and use in readMe)
+#Check responsiveness on all devices
+#Check responsiveness on all web browsers
+#Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial"
+#Run the code through (W3C) validators
+
+
+
+
+#Testing Errors - Struggling to get past these...type of error sample below:
+
+####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:38)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+
+####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:77)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+
+####initialize_owl @ main.js:50
+    (anonymous) @ main.js:77
+    e @ jquery-3.5.1.min.js:2
+    t @ jquery-3.5.1.min.js:2
+    setTimeout (async)
+
+
+    **resolved by changing the order of content in the main.js file - **resolved**
+    **resolved uncaught not defined type error in console for modal by moving JS to index.html file under modal because te complier was not reading the request from the js file **resolved** 
+    
+
+#Testing Errors - Struggling to get past these...type of error sample below:
+
+####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:38)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+
+####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
+    at initialize_owl (main.js:50)
+    at HTMLDocument.<anonymous> (main.js:77)
+    at e (jquery-3.5.1.min.js:2)
+    at t (jquery-3.5.1.min.js:2)
+
+####initialize_owl @ main.js:50
+    (anonymous) @ main.js:77
+    e @ jquery-3.5.1.min.js:2
+    t @ jquery-3.5.1.min.js:2
+    setTimeout (async)
+
+    This issue has now been resolved by specifying the order of code to reflect the both the index.html and main.js files simultaneousley. script tags were equally specified or delated ad appropriate
+
+    Experienced further issues with a mdal uncaught Type Error where property onlick of null cannot be set
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -337,222 +487,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   I would also like to say a special thanks to Brian O'Grady, Programme Director & Matt Rudge a Senior Product Developer at The Code Institute for their teaching .
 
-
-
-
-
-
-
 ####################################################################################################################################################################################
 
-###Initial idea
-
-#To design a functional styled website that purposefully pushes the user through a series of navigational links so that they can navigate through the site
-in a logical manner, whilst stopping at various points to absorb content.
-
-##The main thrust of the site is to try and create an opportunity for the customer to learn about great venues and surrounding areas across the world with the view of one day having 
-a chance to visit them by winning a competition funded by Super Arenas. Super Arenas is a fictional based charitable organisation that wishes to raise awarenes of Architectual design 
-in sporting venues across the globe and promotes exclusive tours to far flung destinations, but wishes nothing more that people join their organisation and push back the proceeds of 
-their respective revenues into grassroots sports to help developing talent and fitness in children primarily and adults alike who enbark upon a sport made accessable in their own 
-communities.
-
-Elite Football Stadiums then World Stadiums then European Stadium Tours, was my first set of ideas....Fast forward to my conclusion to the story,...I then realized that a solution to
-the idea was going to be impacted by COVID 19 because of major restrictions to travel. Therefore the site could become functional for the purpose of presenting an alternative way of
-presenting information about particular venues across the world for now. However I wanted to use the idea to explore my learning and make the site interactive using javascript
-
-So the back story was that the original idea came from a distant admiration for major architecture in general and exclusively in sport and the history of arenas used across the world 
-since time began. The first idea was to build the Worlds Elite Football Stadiums app - (WEFS) or Elite League Football Grounds.
-The idea was to create a website which lists all of this years Champions League Football Grounds information. Then use the Google's api as a ground locator.
-The code would then attempt to split the locations into Northern, Eastern, Southern and Western European regions which would aid in the use of easy travel optimization.
-
-In graphical terms this would look like a simple circle that splits into four zonal perimeters. This format then allows the user to click on each zonal area to reveal the information 
-about the football ground location and it's amenities, i.e. capacity, parking, access points so on and so forth.
-
-Further development would engage upon using the current statistical trends to predict which teams will make up the new World Elite League that is under current discussion.
-There would then have to be a method of storing the information of all stadiums in Europe and a way to retrieve the data when an upcoming event occurs in the future champions league 
-scenarios.
-
-I understand that the scope of this project might be beyond the scope of my skill set and I only had a limited window of opportunity to complete the development
-
-###Finalizing the idea
-
-I then realized that this concept might not stoke the interests of the public at large. So I thought why not increase the scope and development to all types of sporting arenas across 
-Europe and then make the app a travelling companion called World Stadium Tours - This might solve a business problem geared towards the Hospitality industry. I would then go on to build 
-a three page site, with the understanding of adding in future links to storys, popular posts, newsletters, articles, blogs and promotions.
-
-###Therefore the site would comprise.
-
-1st page - Landing with optional Register - Sign in and search functionality
-2nd page - Table format of 26 clickable sporting disciplines (has navigation button to go back to previous page)
-3rd page - information which highlights a stadium venue to the left, stats and info to the right and google api features on the bottom. 
-This also has a navigation button to go back to the previous page and also a forward button for the next stadium venue. 
-The 2nd and 3rd pages will also have a home button to navigate back to the Landing page
-
-###Conclusion
-
-Travel Companion Website/App
-Card style graphics
-
-Features
-Google Driven API - Marker locators
-Email JS driven Subscription Service
-Tec Stack: Bootstrap HTML, CSS, Javascript, Jquery, Jasmine
-
-The learning outcomes for this project are using JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
-
-Future Development - Features
-Tech Stack: C# - ASP.net Core MVC application
-
-Learn and Implement a C.R.U.D. database - for future proofing.
-Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
-
-#Current Issues
-
-#emailJS implementation fails - unable to retrieve emails from subscriber page **resolved**
-
-####Is it bad or good practice to include JavaScript in an HTML ...
-A way of tracking incidents/bugs - like an alert system in conjunction with google maps
-could not justify not using js in map.html was unable to resolve a loading issue with the google map - read this article concerning an outstanding question, I have
-
-
-Dev option that tracks/updates/logs new information and changes to the database
-It all depends on what you want your web page to do. If you are looking at a static web page with no user interaction, you can probably make do without javascript. 
-JavaScript or HTML or PHP or any of the others are tools that are there to help you. There is no good or bad practice in using them.
+###
 
 ####Reduce file sizes - Previously changed from jpeg to png.. but may have to compress ping further if possible and replace all image file batches
 
 ################################################################################################################################################################################
 
-#Testing Errors - Struggling to get past these...type of error sample below:
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:38)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:77)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
-
-####initialize_owl @ main.js:50
-    (anonymous) @ main.js:77
-    e @ jquery-3.5.1.min.js:2
-    t @ jquery-3.5.1.min.js:2
-    setTimeout (async)
-
-
-    **resolved by changing the order of content in the main.js file - **resolved**
-    **resolved uncaught not defined type error in console for modal by moving JS to index.html file under modal because te complier was not reading the request from the js file **resolved** 
-    
-###############################################################################################################################################################################
-##SCOPE         Options are the Carousel or card style as a display mechanism
-                opted for a customized carousel that gives slick access to imagery and easy to implement
-                Thought about using a card style display but realised this would take yo lot of room on the website and become huge
-                future development would be to drill in to each image and link them directly to google maps geo location. (unable to implement this due to time constraints
-                
-###############################################################################################################################################################################
-
-##STRUCTURE     Navigational links for:
-                Home 
-                Storylines/storyboards and experiences of travelling adventures to venues on tour, could be linked to profile stadium thumbnails.
-                Newsletters for forthcoming promotional events.
-                Blog posts for trending and popular posts concerning travel, hospitatilty experience, critic's
-
-###############################################################################################################################################################################
-
-#Solutions
-
-###Able to reference markers by index.html "country" & mapdata.js "latling" "venue name"
-
-###I need to further develop buttons on index.html file. I was unable to re-position pop up at this points
-at lower end of index.html site wanted to instruct user to swipe left but modal button is currently merged with pop up button. wanted to place icons
-side by side...
-
-#####################################################################################################################################################################################
-
-##TO DO lists:
-
-#Complete wireframes mark up for mobile, tablet & desktop design
-#Improve upon marker InfoWindows presention - (if there is time)
-#Implement Geolocation - (if there is time)
-
-#FINISHING UP#
-#Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
-#Source reference material about code used on the project 
-#Revise Mark up cheat sheet and use acordingly
-#Complete readMe template - covering all aspects of the web development for this project (including five planes)C
-
-#TESTING#
-#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
-#Check site UI - Ensure ease of use (does the site make sense).
-#Check rating with lighthouse (screenshot results and use in readMe)
-#Check responsiveness on all devices
-#Check responsiveness on all web browsers
-#Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial"
-#Run the code through (W3C) validators
-
-#SUBMITTING#
-#Complete png file presentation of front-end site visual across all screen sizes for readMe.
-#Check brief again and ensure all answers are met to the best of your ability
-#Complete MS2 submission on the code institute website - make sure correct email address is used.
-#Deploy live website post submission.
-
-
-
-
-
-
-
-
-
-
-####################################################################################################################################################################################
-
-###Initial idea
-
-#To design a functional styled website that purposefully pushes the user through a series of navigational links so that they can navigate through the site
-in a logical manner, whilst stopping at various points to absorb content.
-
-##The main thrust of the site is to try and create an opportunity for the customer to learn about great venues and surrounding areas across the world with the view of one day having 
-a chance to visit them by winning a competition funded by Super Arenas. Super Arenas is a fictional based charitable organisation that wishes to raise awarenes of Architectual design 
-in sporting venues across the globe and promotes exclusive tours to far flung destinations, but wishes nothing more that people join their organisation and push back the proceeds of 
-their respective revenues into grassroots sports to help developing talent and fitness in children primarily and adults alike who enbark upon a sport made accessable in their own 
-communities.
-
-Elite Football Stadiums then World Stadiums then European Stadium Tours, was my first set of ideas....Fast forward to my conclusion to the story,...I then realized that a solution to
-the idea was going to be impacted by COVID 19 because of major restrictions to travel. Therefore the site could become functional for the purpose of presenting an alternative way of
-presenting information about particular venues across the world for now. However I wanted to use the idea to explore my learning and make the site interactive using javascript
-
-So the back story was that the original idea came from a distant admiration for major architecture in general and exclusively in sport and the history of arenas used across the world 
-since time began. The first idea was to build the Worlds Elite Football Stadiums app - (WEFS) or Elite League Football Grounds.
-The idea was to create a website which lists all of this years Champions League Football Grounds information. Then use the Google's api as a ground locator.
-The code would then attempt to split the locations into Northern, Eastern, Southern and Western European regions which would aid in the use of easy travel optimization.
-
-In graphical terms this would look like a simple circle that splits into four zonal perimeters. This format then allows the user to click on each zonal area to reveal the information 
-about the football ground location and it's amenities, i.e. capacity, parking, access points so on and so forth.
-
-Further development would engage upon using the current statistical trends to predict which teams will make up the new World Elite League that is under current discussion.
-There would then have to be a method of storing the information of all stadiums in Europe and a way to retrieve the data when an upcoming event occurs in the future champions league 
-scenarios.
-
-I understand that the scope of this project might be beyond the scope of my skill set and I only had a limited window of opportunity to complete the development
-
-###Finalizing the idea
-
-I then realized that this concept might not stoke the interests of the public at large. So I thought why not increase the scope and development to all types of sporting arenas across 
-Europe and then make the app a travelling companion called World Stadium Tours - This might solve a business problem geared towards the Hospitality industry. I would then go on to build 
-a three page site, with the understanding of adding in future links to storys, popular posts, newsletters, articles, blogs and promotions.
-
-###Therefore the site would comprise.
-
-1st page - Landing with optional Register - Sign in and search functionality
-2nd page - Table format of 26 clickable sporting disciplines (has navigation button to go back to previous page)
-3rd page - information which highlights a stadium venue to the left, stats and info to the right and google api features on the bottom. 
-This also has a navigation button to go back to the previous page and also a forward button for the next stadium venue. 
-The 2nd and 3rd pages will also have a home button to navigate back to the Landing page
 
 ###Conclusion
 
@@ -588,35 +530,57 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
 ####Reduce file sizes - Previously changed from jpeg to png.. but may have to compress ping further if possible and replace all image file batches
 
 ################################################################################################################################################################################
+[View the live project here.](https://benjamin144.github.io/europes-favorite-arenas
 
-#Testing Errors - Struggling to get past these...type of error sample below:
 
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:38)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
 
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:77)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
 
-####initialize_owl @ main.js:50
-    (anonymous) @ main.js:77
-    e @ jquery-3.5.1.min.js:2
-    t @ jquery-3.5.1.min.js:2
-    setTimeout (async)
 
-    This issue has now been resolved by specifying the order of code to reflect the both the index.html and main.js files simultaneousley. script tags were equally specified or delated ad appropriate
 
-    Experienced further issues with a mdal uncaught Type Error where property onlick of null cannot be set
+
+
+
+
+                
+
 ###############################################################################################################################################################################
-##SCOPE         Options are the Carousel or card style as a display mechanism
-                opted for a customized carousel that gives slick access to imagery and easy to implement
-                Thought about using a card style display but realised this would take yo lot of room on the website and become huge
-                future development would be to drill in to each image and link them directly to google maps geo location. (unable to implement this due to time constraints
+
+#Solutions
+
+###Able to reference markers by index.html "country" & mapdata.js "latling" "venue name"
+
+###I need to further develop buttons on index.html file. I was unable to re-position pop up at this points
+at lower end of index.html site wanted to instruct user to swipe left but modal button is currently merged with pop up button. wanted to place icons
+side by side...
+
+#####################################################################################################################################################################################
+
+##TO DO lists:
+
+#Complete wireframes mark up for mobile, tablet & desktop design
+#Improve upon marker InfoWindows presention - (if there is time)
+#Implement Geolocation - (if there is time)
+
+#FINISHING UP#
+#Tidy code - comment on specific code in Javascript files - (Delete 'stray', 'duplicate', or 'unused' code)
+#Source reference material about code used on the project 
+#Revise Mark up cheat sheet and use acordingly
+#Complete readMe template - covering all aspects of the web development for this project (including five planes)C
+
+
+
+#SUBMITTING#
+#Complete png file presentation of front-end site visual across all screen sizes for readMe.
+#Check brief again and ensure all answers are met to the best of your ability
+#Complete MS2 submission on the code institute website - make sure correct email address is used.
+#Deploy live website post submission.
+
+
+
+
+
+###############################################################################################################################################################################
+##SCOPE         
                 
 ###############################################################################################################################################################################
 
@@ -669,6 +633,16 @@ side by side...
 #Check brief again and ensure all answers are met to the best of your ability
 #Complete MS2 submission on the code institute website - make sure correct email address is used.
 #Deploy live website post submission.
+
+#Complete readMe
+#upload wire Frameworks
+Record References
+
+#Final Testing
+Test Site with all popular browsers
+Test with lighthouse and resolve errors
+cross check with last critic
+submit project.
 
 
 
