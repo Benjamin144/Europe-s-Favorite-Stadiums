@@ -170,12 +170,10 @@ hospitatilty experience, critic's.
     -   #### Imagery
         -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the stadium convert well on all screen sizes
  
-
-[Landing Page](https://github.com/Benjamin144/.png)
-
-[About, Map](https://github.com/Benjamin144/.png)
-
-[Subscribe](https://github.com/Benjamin144/My-.png)
+### Wireframes:
+[Mobile View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Mobile%20View.png)
+[Tablet View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Tablet%20View.png)
+[DeskTop View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Desktop%20View.png)
 
 ### Surface
 
@@ -237,6 +235,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+
+## lighthouse
+
+-   [Home pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Homepage.PNG)
+-   [About Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/About.PNG)
+-   [Map Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Map.PNG)
+-   [Subsribe Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/subscribe.PNG)
+
 
 
 #TESTING#
