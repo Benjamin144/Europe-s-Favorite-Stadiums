@@ -368,7 +368,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Daily Tuition](https://www.youtube.com/watch?v=CrSC1ZA9j0M) : Guide to creating jQuery driven interactive nav bar menu items
 
--   A final mention to [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
+-   [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
 
 ### Content
 
@@ -376,6 +376,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     originally introduced at The Code Institute  $toggleCollapse = $('.toggle-collapse');[DailyTuition]&[CodeInstitute]
 
 -   Also credits to the Stack Overflow community for snippets like 'function destroy_owl(el) {..'helped achieved the objective;[StackOverflow]
+
+-   [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
 
 
 ### Media
