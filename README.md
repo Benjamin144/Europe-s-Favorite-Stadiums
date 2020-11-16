@@ -101,7 +101,7 @@ JavaScript or HTML or PHP or any of the others are tools that are there to help 
 
 ## Demo
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
 
 ## User Experience (UX)
 
@@ -237,8 +237,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 
-
-
 #TESTING#
 #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
 #Check site UI - Ensure ease of use (does the site make sense).
@@ -248,9 +246,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 #Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial"
 #Run the code through (W3C) validators
 
-
-
-
 #Testing Errors - Struggling to get past these...type of error sample below:
 
 ####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
@@ -264,41 +259,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     at HTMLDocument.<anonymous> (main.js:77)
     at e (jquery-3.5.1.min.js:2)
     at t (jquery-3.5.1.min.js:2)
-
-####initialize_owl @ main.js:50
-    (anonymous) @ main.js:77
-    e @ jquery-3.5.1.min.js:2
-    t @ jquery-3.5.1.min.js:2
-    setTimeout (async)
-
 
     **resolved by changing the order of content in the main.js file - **resolved**
     **resolved uncaught not defined type error in console for modal by moving JS to index.html file under modal because te complier was not reading the request from the js file **resolved** 
     
-
-#Testing Errors - Struggling to get past these...type of error sample below:
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:38)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:77)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
-
-####initialize_owl @ main.js:50
-    (anonymous) @ main.js:77
-    e @ jquery-3.5.1.min.js:2
-    t @ jquery-3.5.1.min.js:2
-    setTimeout (async)
-
-    This issue has now been resolved by specifying the order of code to reflect the both the index.html and main.js files simultaneousley. script tags were equally specified or delated ad appropriate
-
-    Experienced further issues with a mdal uncaught Type Error where property onlick of null cannot be set
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -366,6 +330,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iphone6 iPhone7, iPhone 8 iPhoneX, iPad, iPad Pro and Pixel 2XL
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
+
 
 ### Known Bugs
 
