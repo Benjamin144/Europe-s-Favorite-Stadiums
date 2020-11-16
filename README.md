@@ -420,7 +420,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   (https://stock.adobe.com/uk) resource images./
+-   (https://stock.adobe.com/uk) resource images. https://stock.adobe.com/uk/images/artificial-grass-background/250085110 - Landing page image
 
 ### Acknowledgements
 
