@@ -301,9 +301,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to find out more about  the organisations brand and social awareness
 
-        1. This is in development but links to blog sites on the 'Say Hello page was intended for this purpose.
+        1. Would like to see alot of membership engagement and available content in the form of popular posts, blog posts, various articles, and newsfeeds
         2. As the purpose of the site goals are not consistent at this early stage nevertheless will be introduced in the future.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
@@ -332,7 +332,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iphone6 iPhone7, iPhone 8 iPhoneX, iPad, iPad Pro and Pixel 2XL
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -350,7 +350,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://benjamin144.github.io/My-Resume/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Benjamin144/Europes-Favorite-Arenas)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -408,14 +408,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Daily Tuition](https://www.youtube.com/watch?v=CrSC1ZA9j0M) : Guide to creating jQuery driven interactive nav bar menu items
 
+-   A final mention to [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
+
 ### Content
 
--   All content was written by Joseph Roberts.
+-   All content was reworked by Joseph Roberts, and I would like to attribute full credit to software developers that tought me certain techniques included in the project and
+    originally introduced at The Code Institute  $toggleCollapse = $('.toggle-collapse');[DailyTuition]&[CodeInstitute]
+
+-   Also credits to the Stack Overflow community for snippets like 'function destroy_owl(el) {..'helped achieved the objective;[StackOverflow]
 
 
 ### Media
 
--   All Images were created by the Joseph Roberts.
+-   (https://stock.adobe.com/uk) resource images./
 
 ### Acknowledgements
 
