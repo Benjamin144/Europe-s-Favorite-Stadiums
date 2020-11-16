@@ -2,7 +2,7 @@
 
 **2nd Milestone Project: Interactive Frontend Development - Code Institute**
 
-**[View the live project here.](https://benjamin144.github.io/europes-favorite-arenas]
+<h2 align="center"><img src="https://github.com/Benjamin144/My-Resume/blob/master/"></h2>
 
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
@@ -171,11 +171,11 @@ hospitatilty experience, critic's.
         -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the stadium convert well on all screen sizes
  
 
-[Landing Page](https://github.com/Benjamin144/My-Resume/blob/master/Landing.png)
+[Landing Page](https://github.com/Benjamin144/.png)
 
-[About, Skills](https://github.com/Benjamin144/My-Resume/blob/master/Skills.png)
+[About, Map](https://github.com/Benjamin144/.png)
 
-[Contact](https://github.com/Benjamin144/My-Resume/blob/master/Contact.png)
+[Subscribe](https://github.com/Benjamin144/My-.png)
 
 ### Surface
 
@@ -330,11 +330,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/super-arenas.pdf"></h2>
 
 
 ### Known Bugs
